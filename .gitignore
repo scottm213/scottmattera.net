@@ -1,7 +1,9 @@
 node_modules
+old_site
 .DS_store
 
 .idea
 .env
 /.svelte_kit
 /build
+
