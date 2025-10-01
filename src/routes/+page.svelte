@@ -35,7 +35,7 @@
 
       }
       .button1 {
-        background-image: url('image/background.png');
+        background-image: url('/image/background.png');
         background-size: cover;
         background-position: center;
         }
