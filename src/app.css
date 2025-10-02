@@ -27,18 +27,18 @@ header {
 
 .button{
     width: 200px;
-
+    height: 40px;
     border: none;
 
 }
 .button1 {
-    height: 40px;
+
     background-color: #005bb7;
     color: white;
 }
 
 .button2 {
-    height: 30px;
+
     background-color: #003468;
     color: grey;
 }
