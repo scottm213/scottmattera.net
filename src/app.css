@@ -13,9 +13,11 @@ header {
 }
 
 .square {
-    height: 400px;
-    width: 400px;
+    position: relative;
+    height: 500px;
+    width: 350px;
     background-color: #005bb7;
+    z-index: -1;
 }
 
 
