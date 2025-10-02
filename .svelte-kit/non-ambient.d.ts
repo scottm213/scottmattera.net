@@ -27,14 +27,15 @@ export {};
 
 declare module "$app/types" {
 	export interface AppTypes {
-		RouteId(): "/";
+		RouteId(): "/" | "/work";
 		RouteParams(): {
 			
 		};
 		LayoutParams(): {
-			"/": Record<string, never>
+			"/": Record<string, never>;
+			"/work": Record<string, never>
 		};
-		Pathname(): "/";
+		Pathname(): "/" | "/work" | "/work/";
 		ResolvedPathname(): `${"" | `/${string}`}${ReturnType<AppTypes['Pathname']>}`;
 		Asset(): "/.nojekyll" | "/image/bgcand1.jpg" | "/robots.txt" | string & {};
 	}

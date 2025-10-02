@@ -4,26 +4,10 @@
 <head>
     <title>Scott's Site</title>
     <style>
-      a:link {
-        text-decoration: none;
-      }
 
-      a:visited {
-        text-decoration: none;
-      }
-
-      a:hover {
-        color: white;
-        background-color: black;
-      }
-
-      a:active {
-        color: white;
-        background-color: black;
-      }
       header {
-        background-color: #0b8bb3;
-        padding: 20px;
+        background-color: #005bb7;
+          padding: 15px;
         text-align: left;
         font-size: 35px;
         color: white;
@@ -33,23 +17,28 @@
 
       .button{
         color: white;
-        width: 350px;
-        height: 50px;
+        width: 200px;
+        height: 40px;
+          border: none;
 
       }
       .button1 {
-        background-image: url('/image/bgcand1.jpg');
-        background-size: cover;
-        background-position: center;
+        background-color: #005bb7;
         }
+
+      .button2 {
+          background-color: #003468;
+      }
+
 
 
     </style>
   </head>
 <body style="background-color:#3e3a55;">
-<a href = "/work.html"> <button class = "button button1" type="button">Projects</button> </a>
-<a href = "/about.html"> <button class = "button button1" type="button">About Me</button> </a>
-<a href = "/other.html"> <button class = "button button1" type="button">Other Stuff</button> </a>
+<a href = "https://scottmattera.net"> <button class = "button button1" type="button">Home</button> </a>
+<a href = "https://scottmattera.net/work"> <button class = "button button2" type="button">Projects</button> </a>
+<a href = "/about.html"> <button class = "button button2" type="button">About Me</button> </a>
+<a href = "/other.html"> <button class = "button button2" type="button">Other Stuff</button> </a>
 <header> <h2>Scott's Website</h2> </header>
 <p>It's a website. </p>
 
