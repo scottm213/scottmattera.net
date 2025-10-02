@@ -23,7 +23,6 @@ header {
 
 
 .button{
-    color: white;
     width: 200px;
     height: 40px;
     border: none;
@@ -31,8 +30,10 @@ header {
 }
 .button1 {
     background-color: #005bb7;
+    color: white;
 }
 
 .button2 {
     background-color: #003468;
+    color: grey;
 }
