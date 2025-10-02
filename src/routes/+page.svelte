@@ -1,3 +1,6 @@
+<script>
+</script>
+
 <head>
     <title>Scott's Site</title>
     <style>
@@ -43,7 +46,7 @@
 
     </style>
   </head>
-<body style="background-image: url('image/bgcand1.jpg'); background-size: cover;">  <!-- color:#29a8cf; -->
+<body style="background-color:#3e3a55;">
 <a href = "/work.html"> <button class = "button button1" type="button">Projects</button> </a>
 <a href = "/about.html"> <button class = "button button1" type="button">About Me</button> </a>
 <a href = "/other.html"> <button class = "button button1" type="button">Other Stuff</button> </a>
