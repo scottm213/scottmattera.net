@@ -1,5 +1,6 @@
 body{
     background-color:#3e3a55;
+    color: white;
 
 }
 
@@ -9,6 +10,12 @@ header {
     text-align: left;
     font-size: 35px;
     color: white;
+}
+
+.square {
+    height: 400px;
+    width: 400px;
+    background-color: #005bb7;
 }
 
 
