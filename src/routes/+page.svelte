@@ -4,7 +4,7 @@
 
 <title>Scott's Site</title>
 
-<body style="background-color:#3e3a55;">
+
 <a href = "https://scottmattera.net"> <button class = "button button1" type="button">Home</button> </a>
 <a href = "https://scottmattera.net/work"> <button class = "button button2" type="button">Projects</button> </a>
 <a href = "/about.html"> <button class = "button button2" type="button">About Me</button> </a>
@@ -14,7 +14,6 @@
 
 <img src="https://cyber.dabamos.de/88x31/aimlink.gif" alt="Great Graphic">
 
-</body>
 
 
 <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
