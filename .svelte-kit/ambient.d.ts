@@ -30,8 +30,8 @@ declare module '$env/static/private' {
 	export const NODE: string;
 	export const INIT_CWD: string;
 	export const NVM_CD_FLAGS: string;
-	export const SHELL: string;
 	export const TERM: string;
+	export const SHELL: string;
 	export const HOMEBREW_REPOSITORY: string;
 	export const TMPDIR: string;
 	export const npm_config_global_prefix: string;
@@ -79,7 +79,6 @@ declare module '$env/static/private' {
 	export const HOMEBREW_CELLAR: string;
 	export const DISPLAY: string;
 	export const OSLogRateLimit: string;
-	export const TOOLBOX_VERSION: string;
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
 	export const FIG_TERM: string;
@@ -117,8 +116,8 @@ declare module '$env/dynamic/private' {
 		NODE: string;
 		INIT_CWD: string;
 		NVM_CD_FLAGS: string;
-		SHELL: string;
 		TERM: string;
+		SHELL: string;
 		HOMEBREW_REPOSITORY: string;
 		TMPDIR: string;
 		npm_config_global_prefix: string;
@@ -166,7 +165,6 @@ declare module '$env/dynamic/private' {
 		HOMEBREW_CELLAR: string;
 		DISPLAY: string;
 		OSLogRateLimit: string;
-		TOOLBOX_VERSION: string;
 		npm_node_execpath: string;
 		npm_config_prefix: string;
 		FIG_TERM: string;
