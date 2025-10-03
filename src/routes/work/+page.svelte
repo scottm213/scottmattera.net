@@ -9,4 +9,11 @@
 <a href = "https://scottmattera.net/about"> <button class = "button button2" type="button">About Me</button> </a>
 <a href = "https://scottmattera.net/other"> <button class = "button button2" type="button">Other Stuff</button> </a>
 <header> <h2>My Work</h2> </header>
-<div class = "square"> </div>
+<div class = "square">
+
+    <a href = "https://scottmattera.net/work"> <button class = "button button2" type="button">School Projects</button> </a>
+
+
+    <a href = "https://scottmattera.net/work"> <button class = "button button2" type="button">Personal Projects</button> </a>
+
+</div>
