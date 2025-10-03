@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 body{
-    background-image: url("/image/webBG.png");
+    background-color: #3E3A55;
     height: 110%;
     width: 110%;
     background-size: cover;
@@ -30,6 +30,7 @@ header {
 
 
 .button{
+    border-radius: 25px 1px 1px 1px;
     width: 200px;
     height: 40px;
     border: none;
