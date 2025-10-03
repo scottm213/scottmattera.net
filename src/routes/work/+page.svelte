@@ -1,4 +1,13 @@
 <script>
+
+
+
+    function buttonClicked(){
+        console.log("Clicked");
+
+    }
+
+
 </script>
 
 <title>My Work</title>
@@ -11,7 +20,8 @@
 <header> <h2>My Work</h2> </header>
 <div class = "square">
     <div> <br> <br> <br> </div>
-    <a href = "https://scottmattera.net/work"> <button class = "button button3" type="button">School Projects</button> </a>
+    <button  class = "button button3" type="button" on:click={buttonClicked}>School Projects</button>
+
     <div> <br> <br> <br> <br> <br> <br> </div>
 
     <a href = "https://scottmattera.net/work"> <button class = "button button3" type="button">Personal Projects</button> </a>

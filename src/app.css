@@ -24,7 +24,7 @@ header {
     height: 100vh;
     width: 325px;
     background-color: #005bb7;
-    z-index: -1;
+
 }
 
 
@@ -34,6 +34,8 @@ header {
     width: 150px;
     height: 30px;
     border: none;
+    cursor: pointer;
+
 
 }
 .button1 {
@@ -49,6 +51,7 @@ header {
 
 .button3 {
     float: right;
+    cursor: pointer;
     border-radius: 1px 1px 1px 1px;
     background-color: #003468;
     width: 150px;
