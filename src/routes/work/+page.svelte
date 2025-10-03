@@ -10,9 +10,9 @@
 <a href = "/other"> <button class = "button button2" type="button">Other Stuff</button> </a>
 <header> <h2>My Work</h2> </header>
 <div class = "square">
-
+    <div> <br> <br> <br> </div>
     <a href = "https://scottmattera.net/work"> <button class = "button button3" type="button">School Projects</button> </a>
-
+    <div> <br> <br> <br> <br> <br> <br> </div>
 
     <a href = "https://scottmattera.net/work"> <button class = "button button3" type="button">Personal Projects</button> </a>
 

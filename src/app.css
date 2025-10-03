@@ -48,6 +48,7 @@ header {
 }
 
 .button3 {
+    float: right;
     border-radius: 1px 1px 1px 1px;
     background-color: #003468;
     width: 150px;
