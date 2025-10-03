@@ -2,8 +2,12 @@
 @import "tailwindcss";
 
 body{
-    background-color:#3e3a55;
+    background-image: url("/image/webBG.png");
+    height: 110%;
+    width: 110%;
+    background-size: cover;
     color: white;
+
 
 }
 
