@@ -1,9 +1,9 @@
 node_modules
 old_site
-.DS_store
+.DS_Store
 
 .idea
 .env
-/.svelte_kit
+/.svelte-kit
 /build
 
