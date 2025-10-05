@@ -1,4 +1,5 @@
 <script>
+    import Tabs from "../tabs.svelte";
 </script>
 
 <title>About Me</title>
