@@ -12,7 +12,7 @@
 <div> <br> </div>
 <Tabs/>
 <header> <h2>My Work</h2> </header>
-<div class = "square flex flex-col">
+<div class = "square flex flex-col ">
 
     <button  class = "mt-30 button button3" type="button" onclick={buttonClicked}>School Projects</button>
 
