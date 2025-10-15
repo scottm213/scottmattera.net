@@ -29,6 +29,7 @@ declare module '$env/static/private' {
 	export const NVM_INC: string;
 	export const NODE: string;
 	export const INIT_CWD: string;
+	export const ANDROID_HOME: string;
 	export const NVM_CD_FLAGS: string;
 	export const TERM: string;
 	export const SHELL: string;
@@ -115,6 +116,7 @@ declare module '$env/dynamic/private' {
 		NVM_INC: string;
 		NODE: string;
 		INIT_CWD: string;
+		ANDROID_HOME: string;
 		NVM_CD_FLAGS: string;
 		TERM: string;
 		SHELL: string;
