@@ -1,9 +1,11 @@
 <script>
-    let currentButtonClass = "button button2"
+    let currentButtonClass = "button button1"
     import { page } from '$app/state';
     function getCurrentPage(hrefItem){
         console.log(page.url.pathname);
         if (page.url.href === hrefItem){
+            return currentButtonClass = "button button1";
+        } else{
             return currentButtonClass = "button button1";
         }
     }
