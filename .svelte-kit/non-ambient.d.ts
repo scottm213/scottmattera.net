@@ -39,6 +39,6 @@ declare module "$app/types" {
 		};
 		Pathname(): "/" | "/about" | "/about/" | "/other" | "/other/" | "/work" | "/work/";
 		ResolvedPathname(): `${"" | `/${string}`}${ReturnType<AppTypes['Pathname']>}`;
-		Asset(): "/.nojekyll" | "/image/bgcand1.jpg" | "/image/webBG.png" | "/image/websitebackground.png" | "/robots.txt" | string & {};
+		Asset(): "/.nojekyll" | "/image/bgcand1.jpg" | "/image/bishop.png" | "/image/reflectiveOrbs.png" | "/image/saturn.png" | "/image/webBG.png" | "/image/websitebackground.png" | "/robots.txt" | string & {};
 	}
 }

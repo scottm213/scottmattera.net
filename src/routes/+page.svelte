@@ -3,11 +3,14 @@
     import "../app.css";
     import Tabs from "./tabs.svelte";
 
+
     let img0 = "/image/reflectiveOrbs.png";
     let img1 = "/image/bishop.png";
     let img2 = "/image/saturn.png";
     let picChange = $state(0);
+
     function buttonClicked(){
+
         if (picChange == 2){
             picChange = 0
         } else {
