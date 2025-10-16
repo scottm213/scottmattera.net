@@ -1,12 +1,23 @@
 <script>
     import Tabs from "../tabs.svelte";
 
-    let workOpen = $state(false);
-    function buttonClicked(){
-        console.log("Clicked");
-        workOpen = !workOpen;
+    let schoolWorkOpen = $state(false);
+    let personalWorkOpen = $state(false);
+    function schoolButtonClicked(){
+        if (!personalWorkOpen){
+            schoolWorkOpen = !schoolWorkOpen;
+        }
 
     }
+
+    function personalButtonClicked(){
+        if (!schoolWorkOpen) {
+            personalWorkOpen = !personalWorkOpen;
+        }
+
+    }
+
+
 </script>
 
 <title>My Work</title>
@@ -18,30 +29,26 @@
     <div class = "square flex flex-col items-start justify-start">
         <div class="grid grid-cols-4 gap-2 ">
 
-            <button  class = " button button3 mt-20 col-start-3 col-end-4" type="button" onclick={buttonClicked}>School Projects</button>
+            <button  class = " button button3 mt-20 col-start-3 col-end-4" type="button" value="school" onclick={schoolButtonClicked}>School Projects</button>
 
 
-            <button class = " button button3 mt-50 col-start-3 col-end-4" type="button">Personal Projects</button>
+            <button class = " button button3 mt-50 col-start-3 col-end-4" type="button" value="personal "onclick={personalButtonClicked}>Personal Projects</button>
         </div>
     </div>
         <div>
-            {#if workOpen}
-                <br>
-                <br>
-                <br>
-                <div class = "workSquare flex overflow-y-scroll">
-                    <p>
-                        This text needs to be on the right.
-                    </p>
+            <br>
+            <br>
+            <br>
+            {#if schoolWorkOpen}
 
+                <div class = "workSquare overflow-y-scroll">
+                    <h1 class ="font-bold">School Projects</h1>
+                </div>
+            {/if}
 
-
-
-
-
-
-
-
+            {#if personalWorkOpen}
+                <div class = "workSquare overflow-y-scroll">
+                    <h1>Personal Projects</h1>
                 </div>
             {/if}
 
