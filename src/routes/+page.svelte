@@ -3,6 +3,9 @@
     import "../app.css";
     import Tabs from "./tabs.svelte";
 
+    let img0 = "/image/reflectiveOrbs.png";
+    let img1 = "/image/bishop.png";
+    let img2 = "/image/saturn.png";
     let picChange = $state(0);
     function buttonClicked(){
         if (picChange == 2){
@@ -34,13 +37,13 @@
     </div>
     <div>
         {#if picChange == 0}
-            <img src="src/lib/assets/reflectiveOrbs.png" height=384 width=512 alt="Reflective Orbs">
+            <img src={img0} height=384 width=512 alt="Reflective Orbs">
         {/if}
         {#if picChange == 1}
-            <img src="src/lib/assets/bishop.png" height=384 width=512 alt="Reflective Orbs">
+            <img src={img1} height=384 width=512 alt="Reflective Orbs">
         {/if}
         {#if picChange == 2}
-            <img src="src/lib/assets/saturn.png" height=384 width=512 alt="Reflective Orbs">
+            <img src={img2} height=384 width=512 alt="Reflective Orbs">
         {/if}
 
         <button class = "button button2" type="button" onclick={buttonClicked} >Click me</button>
