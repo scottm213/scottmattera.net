@@ -9,15 +9,14 @@
     let img2 = "/image/saturn.png";
     let picChange = $state(0);
 
-    function buttonClicked(){
-
-        if (picChange == 2){
-            picChange = 0
-        } else {
-            picChange += 1;
-        }
-
-
+    function buttonClicked1(){
+        picChange = 0;
+    }
+    function buttonClicked2(){
+        picChange = 1;
+    }
+    function buttonClicked3(){
+        picChange = 2;
     }
 
 </script>
@@ -38,7 +37,11 @@
 
 
     </div>
-    <div>
+    <div class = "flex flex-col ">
+        <br>
+        <p>Here's some renders by me </p>
+        <br>
+    <div class = "w-125">
         {#if picChange == 0}
             <img src={img0} height=384 width=512 alt="Reflective Orbs">
         {/if}
@@ -48,9 +51,15 @@
         {#if picChange == 2}
             <img src={img2} height=384 width=512 alt="Reflective Orbs">
         {/if}
-
-        <button class = "button button2" type="button" onclick={buttonClicked} >Click me</button>
-
+        <div class = "grid grid-cols-9 gap-1 justify-center">
+            <button class = "px-5 py-0.1 rounded-lg text-gray-200 bg-gray-200 col-start-3 col-end-3
+                                " type="button" onclick={buttonClicked1} >.</button>
+            <button class = "px-5 py-0.1 rounded-lg text-gray-200 bg-gray-200 col-start-5 col-end-5
+                                " type="button" onclick={buttonClicked2} >.</button>
+            <button class = "px-5 py-0.1 rounded-lg text-gray-200 bg-gray-200 col-start-7 col-end-7
+                                " type="button" onclick={buttonClicked3} >.</button>
+        </div>
+    </div>
     </div>
 </div>
 
