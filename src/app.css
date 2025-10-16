@@ -27,6 +27,13 @@ header {
 
 }
 
+.workSquare {
+    height: 60vh;
+    width: 75vw;
+    background-color: #005bb7;
+
+}
+
 
 
 .button{

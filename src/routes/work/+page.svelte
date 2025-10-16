@@ -14,19 +14,36 @@
 <div> <br> </div>
 <Tabs />
 <header> <h2>My Work</h2> </header>
-<div class = "square flex flex-col items-start justify-start">
-    <div class="grid grid-cols-4 gap-2 ">
+<div class = "flex flex-row">
+    <div class = "square flex flex-col items-start justify-start">
+        <div class="grid grid-cols-4 gap-2 ">
 
-        <button  class = " button button3 mt-20 col-start-3 col-end-4" type="button" onclick={buttonClicked}>School Projects</button>
+            <button  class = " button button3 mt-20 col-start-3 col-end-4" type="button" onclick={buttonClicked}>School Projects</button>
 
 
-        <button class = " button button3 mt-50 col-start-3 col-end-4" type="button">Personal Projects</button>
+            <button class = " button button3 mt-50 col-start-3 col-end-4" type="button">Personal Projects</button>
+        </div>
+    </div>
+        <div>
+            {#if workOpen}
+                <br>
+                <br>
+                <br>
+                <div class = "workSquare flex overflow-y-scroll">
+                    <p>
+                        This text needs to be on the right.
+                    </p>
 
+
+
+
+
+
+
+
+
+                </div>
+            {/if}
 
     </div>
-    {#if workOpen}
-        <p class = "justify-start">
-            This text needs to be on the right.
-        </p>
-    {/if}
 </div>
