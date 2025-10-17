@@ -50,10 +50,20 @@ header {
     color: white;
 }
 
+.button1:hover {
+    background-color: #035cb6;
+    color: #dddddd;
+}
+
 .button2 {
 
     background-color: #003468;
     color: grey;
+}
+
+.button2:hover {
+    background-color: #00509f;
+    color: whitesmoke;
 }
 
 .button3 {
@@ -67,4 +77,9 @@ header {
     color: white;
 }
 
-.button4 {}
+.button2554 {
+
+    background-color: #003b73;
+    color: grey;
+}
+

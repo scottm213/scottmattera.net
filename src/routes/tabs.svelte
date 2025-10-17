@@ -3,9 +3,9 @@
     import { page } from '$app/state';
     function getCurrentPage(hrefItem){
         if (page.url.pathname === hrefItem){
-            return currentButtonClass = "button button1";
+            return currentButtonClass = "button button1 ";
         }
-        return currentButtonClass = "button button2";
+        return currentButtonClass = "button button2 ";
 
     }
 </script>
