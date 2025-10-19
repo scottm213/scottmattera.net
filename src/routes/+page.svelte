@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 
     import "../app.css";
     import Tabs from "./tabs.svelte";
@@ -22,7 +22,7 @@
         picChange = 2;
     }
 
-    function setButtonStyle(butNum){
+    function setButtonStyle(butNum:number){
         if (picChange === 0 && butNum === 0){
             return buttonStyle2;
         } else if (picChange === 1 && butNum === 1){

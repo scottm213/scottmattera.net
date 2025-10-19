@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import Tabs from "../tabs.svelte";
 
     let schoolWorkOpen = $state(false);
@@ -62,13 +62,43 @@
 
                 <div class = "workSquare overflow-y-scroll flex flex-col">
                     <h1 class ="font-bold">School Projects</h1>
-                    <p>Space Invaders</p>
+                    <p class = "font-bold">Galaga Clone</p>
+                    <p>- Made using Java, Java FX</p>
+                    <p>- Plays similar to Space Invaders</p>
+                    <p class = "font-bold">Munch Match (in progress) </p>
+                    <p>- Made using Ionic, React, Typescript</p>
+                    <p>- App similar to tinder, but for finding restaurants</p>
+                    <p class = "font-bold">Ghidra & IDA Pro Plugins Research</p>
+                    <p>- A research paper describing different plugins to assist with</p>
+                    <p>reverse engineering and static malware analysis.</p>
+
                 </div>
             {/if}
 
             {#if personalWorkOpen}
                 <div class = "workSquare overflow-y-scroll flex flex-col">
                     <h1 class = "font-bold">Personal Projects</h1>
+                    <p class = "font-bold">SleepZone (in progress)</p>
+                    <p>- Made using Swift, SwiftUI</p>
+                    <p>- Simple iOS app for tracking and recording the amount of hours you sleep</p>
+                    <p>- Uses SwiftData for persistent data tracking</p>
+                    <p>- Made in collaboration</p>
+                    <p class = "font-bold">POV-Ray Projects </p>
+                    <p>- More of a passion project, I learned the old 3D rendering software
+                    POV-Ray to make old 90s styled 3D renders</p>
+                    <p>- Uses POV-Ray's scripting language.</p>
+                    <p>- Made SOLO</p>
+                    <p class = "font-bold">Asteroid War Minecraft Map</p>
+                    <p>- Minecraft map where you take control of a spaceship's cannon,
+                   shooting incoming asteroids and dealing with problems on the ship.
+                    </p>
+                    <p>- I worked on most of the building/design/many ideas, as well as making some
+                    3D models, 2D sprites, and programming for some of the events that can happen.</p>
+                    <p>- Made in collaboration</p>
+                    <p class ="font-bold">This Website</p>
+                    <p>- This website is also a personal project of mine!</p>
+                    <p>- I learned Svelte/SvelteKit, and Tailwind CSS in order to make it.</p>
+                    <p>- Made SOLO</p>
                 </div>
             {/if}
 

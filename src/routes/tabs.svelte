@@ -1,11 +1,10 @@
-<script>
-    let currentButtonClass = "button button1"
+<script lang="ts">
     import { page } from '$app/state';
-    function getCurrentPage(hrefItem){
+    function getCurrentPage(hrefItem:String){
         if (page.url.pathname === hrefItem){
-            return currentButtonClass = "button button1 ";
+            return "button button1 ";
         }
-        return currentButtonClass = "button button2 ";
+        return "button button2 ";
 
     }
 </script>

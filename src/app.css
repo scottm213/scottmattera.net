@@ -30,6 +30,7 @@ header {
 .workSquare {
     height: 60vh;
     width: 75vw;
+    border-radius: 0 25px 25px 0;
     background-color: #005bb7;
 
 }
