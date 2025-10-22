@@ -2,7 +2,8 @@
 @import "tailwindcss";
 
 body{
-    background-color: #3E3A55;
+
+    background-color:  #3E3A55;
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -12,6 +13,7 @@ body{
 }
 
 header {
+
     background-color: #005bb7;
     padding: 20px;
     text-align: left;
@@ -23,6 +25,7 @@ header {
 .square {
     height: 80vh;
     width: 325px;
+
     background-color: #005bb7;
 
 }
@@ -70,17 +73,11 @@ header {
 .button3 {
     float: right;
     cursor: pointer;
-    border-radius: 1px 1px 1px 1px;
+    border-radius: 0 25px 25px 0;;
     background-color: #003468;
     width: 150px;
     height: 40px;
     border: none;
     color: white;
-}
-
-.button2554 {
-
-    background-color: #003b73;
-    color: grey;
 }
 
