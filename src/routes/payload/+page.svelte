@@ -10,7 +10,7 @@
     <h1>
         Hello! Secure ED is compromised!
     </h1>
-    <button onclick = {onBClick}>Click to remove virus</button>
+    <button class = "bg-amber-800" onclick = {onBClick}>Click to remove virus</button>
 
     {#if bPressed}
         <p>Virus</p>
