@@ -22,7 +22,7 @@ header {
 }
 
 .square {
-    height: 80dvh;
+    height: 100dvh;
     width: 325px;
     padding: 0;
     background-color: #005bb7;
@@ -39,7 +39,7 @@ header {
 }
 
 .otherSquare {
-    height: 80dvh;
+    height: 100dvh;
     width: 80dvw;
 
 
