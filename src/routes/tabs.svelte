@@ -16,5 +16,5 @@
     <a href = "/about">
         <button class = {getCurrentPage("/about")} type="button">About Me</button> </a>
     <a href = "/other">
-        <button class = {getCurrentPage("/other")} type="button">Other Stuff</button> </a>
+        <button class = {getCurrentPage("/other")} type="button">My Links</button> </a>
 </nav>
