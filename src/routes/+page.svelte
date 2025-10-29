@@ -11,7 +11,7 @@
 
 
     let imageExists = $state(true);
-    let images = ["/image/reflectiveOrbs.png", "/image/bishop.png", "/image/saturn.png" ];
+    let images = ["/image/saturn.png", "/image/bishop.png","/image/reflectiveOrbs.png" ];
     let buttonStyle2 = "px-5 py-0.1 rounded-lg text-gray-200 bg-gray-200 hover:bg-gray-100 opacity-50";
     let buttonStyle1 = "px-5 py-0.1 rounded-lg text-gray-700 bg-gray-700 hover:bg-gray-500 opacity-50";
     let picChange = $state(0);

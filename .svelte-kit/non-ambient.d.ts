@@ -40,6 +40,6 @@ declare module "$app/types" {
 		};
 		Pathname(): "/" | "/about" | "/about/" | "/other" | "/other/" | "/payload" | "/payload/" | "/work" | "/work/";
 		ResolvedPathname(): `${"" | `/${string}`}${ReturnType<AppTypes['Pathname']>}`;
-		Asset(): "/.nojekyll" | "/image/bgcand1.jpg" | "/image/bishop.png" | "/image/reflectiveOrbs.png" | "/image/saturn.png" | "/image/webBG.png" | "/image/websitebackground.png" | "/robots.txt" | string & {};
+		Asset(): "/.nojekyll" | "/image/LinkedIn_icon.svg" | "/image/bgcand1.jpg" | "/image/bishop.png" | "/image/mark-github.svg" | "/image/reflectiveOrbs.png" | "/image/saturn.png" | "/image/webBG.png" | "/image/websitebackground.png" | "/robots.txt" | string & {};
 	}
 }

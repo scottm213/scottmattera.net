@@ -23,7 +23,7 @@ header {
 
 .square {
     height: 100dvh;
-    width: 325px;
+    width: 20dvw;
     padding: 0;
     background-color: #005bb7;
     box-sizing: border-box;

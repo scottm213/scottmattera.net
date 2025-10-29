@@ -46,12 +46,12 @@
 <header> <h2>My Work</h2> </header>
 <div class = "flex flex-row">
     <div class = "square flex flex-col items-start justify-start">
-        <div class="grid grid-cols-4 gap-2 ">
+        <div class="grid grid-cols-4 gap-1 ">
 
-            <button  class = "w-37.5 h-10 {buttonStyle1} rounded-tl-lg rounded-br-lg mt-20 col-start-3 col-end-4" type="button" value="school" onclick={schoolButtonClicked}>School Projects</button>
+            <button  class = "w-33.5 h-10 {buttonStyle1} rounded-tl-lg rounded-br-lg mt-20 col-start-3 col-end-4" type="button" value="school" onclick={schoolButtonClicked}>School Projects</button>
 
 
-            <button class = "w-37.5 h-10 {buttonStyle2} rounded-tl-lg rounded-br-lg hover:bg-[#004381] mt-50 col-start-3 col-end-4" type="button" value="personal "onclick={personalButtonClicked}>Personal Projects</button>
+            <button class = "w-33.5 h-10 {buttonStyle2} rounded-tl-lg rounded-br-lg hover:bg-[#004381] mt-50 col-start-3 col-end-4" type="button" value="personal "onclick={personalButtonClicked}>Personal Projects</button>
         </div>
     </div>
         <div>
