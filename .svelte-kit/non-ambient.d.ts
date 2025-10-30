@@ -27,18 +27,19 @@ export {};
 
 declare module "$app/types" {
 	export interface AppTypes {
-		RouteId(): "/" | "/about" | "/other" | "/payload" | "/work";
+		RouteId(): "/" | "/about" | "/demos" | "/other" | "/payload" | "/work";
 		RouteParams(): {
 			
 		};
 		LayoutParams(): {
 			"/": Record<string, never>;
 			"/about": Record<string, never>;
+			"/demos": Record<string, never>;
 			"/other": Record<string, never>;
 			"/payload": Record<string, never>;
 			"/work": Record<string, never>
 		};
-		Pathname(): "/" | "/about" | "/about/" | "/other" | "/other/" | "/payload" | "/payload/" | "/work" | "/work/";
+		Pathname(): "/" | "/about" | "/about/" | "/demos" | "/demos/" | "/other" | "/other/" | "/payload" | "/payload/" | "/work" | "/work/";
 		ResolvedPathname(): `${"" | `/${string}`}${ReturnType<AppTypes['Pathname']>}`;
 		Asset(): "/.nojekyll" | "/image/LinkedIn_icon.svg" | "/image/bgcand1.jpg" | "/image/bishop.png" | "/image/mark-github.svg" | "/image/reflectiveOrbs.png" | "/image/saturn.png" | "/image/webBG.png" | "/image/websitebackground.png" | "/robots.txt" | string & {};
 	}

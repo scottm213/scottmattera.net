@@ -41,7 +41,7 @@
 
 <div> <br> </div>
 <Tabs/>
-<header> <h2>Scott's Website</h2> </header>
+<header class="flex"> <h2>Scott's Website</h2> </header>
 <div class = "flex flex-row ">
     <div class = "square">
         <p>It's a website. </p>

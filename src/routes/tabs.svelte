@@ -8,7 +8,7 @@
 
     }
 </script>
-<nav class="tabs">
+<nav class="tabs flex">
     <a href = "/">
         <button class = {getCurrentPage("/")} type="button">Home</button> </a>
     <a href = "/work">
@@ -17,4 +17,7 @@
         <button class = {getCurrentPage("/about")} type="button">About Me</button> </a>
     <a href = "/other">
         <button class = {getCurrentPage("/other")} type="button">My Links</button> </a>
+    <a href = "/demos">
+        <button class = {getCurrentPage("/demos")} type="button">Demos</button>
+    </a>
 </nav>

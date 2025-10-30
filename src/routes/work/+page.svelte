@@ -48,10 +48,10 @@
     <div class = "square flex flex-col items-start justify-start">
         <div class="grid grid-cols-4 gap-1 ">
 
-            <button  class = "w-33.5 h-10 {buttonStyle1} rounded-tl-lg rounded-br-lg mt-20 col-start-3 col-end-4" type="button" value="school" onclick={schoolButtonClicked}>School Projects</button>
+            <button  class = "flex shrink-1 flex-col w-33.5 h-10 {buttonStyle1} rounded-tl-lg rounded-br-lg mt-20 col-start-3 col-end-4" type="button" value="school" onclick={schoolButtonClicked}>School Projects</button>
 
 
-            <button class = "w-33.5 h-10 {buttonStyle2} rounded-tl-lg rounded-br-lg hover:bg-[#004381] mt-50 col-start-3 col-end-4" type="button" value="personal "onclick={personalButtonClicked}>Personal Projects</button>
+            <button class = "flex shrink-1 flex-col w-33.5 h-10 {buttonStyle2} rounded-tl-lg rounded-br-lg hover:bg-[#004381] mt-50 col-start-3 col-end-4" type="button" value="personal "onclick={personalButtonClicked}>Personal Projects</button>
         </div>
     </div>
         <div>
@@ -63,14 +63,17 @@
                 <div class = "workSquare overflow-y-scroll flex flex-col">
                     <h1 class ="font-bold">School Projects</h1>
                     <p class = "font-bold">Galaga Clone</p>
-                    <p>- Made using Java, Java FX</p>
-                    <p>- Plays similar to Space Invaders</p>
+                    <p>- Made using Java, Java FX <br>
+                    - Plays similar to Space Invaders <br>
+                    - Made with a team</p>
                     <p class = "font-bold">Munch Match (in progress) </p>
-                    <p>- Made using Ionic, React, Typescript</p>
-                    <p>- App similar to tinder, but for finding restaurants</p>
+                    <p>- Made using Ionic, React, Typescript <br>
+                    - App similar to tinder, but for finding restaurants <br>
+                    - Made with a team</p>
                     <p class = "font-bold">Ghidra & IDA Pro Plugins Research</p>
-                    <p>- A research paper describing different plugins to assist with</p>
-                    <p>reverse engineering and static malware analysis.</p>
+                    <p>- A research paper describing different plugins to assist with <br>
+                    reverse engineering and static malware analysis. <br>
+                    - Made with a team</p>
 
                 </div>
             {/if}
@@ -79,26 +82,25 @@
                 <div class = "workSquare overflow-y-scroll flex flex-col">
                     <h1 class = "font-bold">Personal Projects</h1>
                     <p class = "font-bold">SleepZone (in progress)</p>
-                    <p>- Made using Swift, SwiftUI</p>
-                    <p>- Simple iOS app for tracking and recording the amount of hours you sleep</p>
-                    <p>- Uses SwiftData for persistent data tracking</p>
-                    <p>- Made in collaboration</p>
+                    <p>- Made using Swift, SwiftUI<br>
+                        - Simple iOS app for tracking and recording the amount of hours you sleep <br>
+                        - Uses SwiftData for persistent data tracking <br>
+                        - Made in collaboration</p>
                     <p class = "font-bold">POV-Ray Projects </p>
                     <p>- More of a passion project, I learned the old 3D rendering software
-                    POV-Ray to make old 90s styled 3D renders</p>
-                    <p>- Uses POV-Ray's scripting language.</p>
-                    <p>- Made SOLO</p>
+                    POV-Ray to make old 90s styled 3D renders<br>
+                        - Uses POV-Ray's scripting language.<br>
+                        - Made SOLO</p>
                     <p class = "font-bold">Asteroid War Minecraft Map</p>
                     <p>- Minecraft map where you take control of a spaceship's cannon,
-                   shooting incoming asteroids and dealing with problems on the ship.
-                    </p>
-                    <p>- I worked on most of the building/design/many ideas, as well as making some
-                    3D models, 2D sprites, and programming for some of the events that can happen.</p>
-                    <p>- Made in collaboration</p>
+                   shooting incoming asteroids and dealing with problems on the ship.<br>
+                    - I worked on most of the building/design/many ideas, as well as making some
+                    3D models, 2D sprites, and programming for some of the events that can happen.<br>
+                        - Made in collaboration</p>
                     <p class ="font-bold">This Website</p>
-                    <p>- This website is also a personal project of mine!</p>
-                    <p>- I learned Svelte/SvelteKit, and Tailwind CSS in order to make it.</p>
-                    <p>- Made SOLO</p>
+                    <p>- This website is also a personal project of mine!<br>
+                        - I learned Svelte, TypeScript and Tailwind CSS in order to make it.<br>
+                        - Made SOLO</p>
                 </div>
             {/if}
 
