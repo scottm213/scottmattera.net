@@ -8,10 +8,7 @@
 <div> <br> </div>
 <Tabs/>
 <header> <h2>Demos</h2> </header>
-<div class="flex">
-    <div class="w-dvw bg-[#005bb7] h-2"></div>
-    <div class="h-dvh bg-[#005bb7] w-2 relative"> </div>
-    <div class="h-dvh bg-[#005bb7] w-2 absolute right"> </div>
-    <div class="w-dvw bg-[#005bb7] h-2 absolute -bottom-38"></div>
+<div class="flex w-dvw h-[80dvh] border-solid border-[#005bb7] border-8 content-center justify-center">
+    <a href="/museum" class="hover:underline font-bold h-8 "> POV-Ray Museum</a>
 
 </div>

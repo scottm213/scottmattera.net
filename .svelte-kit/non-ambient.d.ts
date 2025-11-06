@@ -27,7 +27,7 @@ export {};
 
 declare module "$app/types" {
 	export interface AppTypes {
-		RouteId(): "/" | "/about" | "/demos" | "/other" | "/payload" | "/work";
+		RouteId(): "/" | "/about" | "/demos" | "/museum" | "/other" | "/payload" | "/work";
 		RouteParams(): {
 			
 		};
@@ -35,11 +35,12 @@ declare module "$app/types" {
 			"/": Record<string, never>;
 			"/about": Record<string, never>;
 			"/demos": Record<string, never>;
+			"/museum": Record<string, never>;
 			"/other": Record<string, never>;
 			"/payload": Record<string, never>;
 			"/work": Record<string, never>
 		};
-		Pathname(): "/" | "/about" | "/about/" | "/demos" | "/demos/" | "/other" | "/other/" | "/payload" | "/payload/" | "/work" | "/work/";
+		Pathname(): "/" | "/about" | "/about/" | "/demos" | "/demos/" | "/museum" | "/museum/" | "/other" | "/other/" | "/payload" | "/payload/" | "/work" | "/work/";
 		ResolvedPathname(): `${"" | `/${string}`}${ReturnType<AppTypes['Pathname']>}`;
 		Asset(): "/.nojekyll" | "/image/LinkedIn_icon.svg" | "/image/bgcand1.jpg" | "/image/bishop.png" | "/image/mark-github.svg" | "/image/reflectiveOrbs.png" | "/image/saturn.png" | "/image/webBG.png" | "/image/websitebackground.png" | "/robots.txt" | string & {};
 	}
