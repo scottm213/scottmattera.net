@@ -3,7 +3,7 @@
 
 </script>
 
-<title>Demos</title>
+<title>Scott's Site - Demos</title>
 
 <div> <br> </div>
 <Tabs/>

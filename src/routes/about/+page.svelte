@@ -2,7 +2,7 @@
     import Tabs from "../tabs.svelte";
 </script>
 
-<title>About Me</title>
+<title>Scott's Site - About Me</title>
 
 <div> <br> </div>
 

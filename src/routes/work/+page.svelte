@@ -39,7 +39,7 @@
 
 </script>
 
-<title>My Work</title>
+<title>Scott's Site - My Work</title>
 
 <div> <br> </div>
 <Tabs />
@@ -101,6 +101,7 @@
                     <p>- This website is also a personal project of mine!<br>
                         - I learned Svelte, TypeScript and Tailwind CSS in order to make it.<br>
                         - Made SOLO</p>
+                    <p class ="font-bold">FumoBot (WIP)</p>
                 </div>
             {/if}
 
