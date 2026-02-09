@@ -2,29 +2,43 @@
 @import "tailwindcss";
 
 body{
-
-    background-color:  #3E3A55;
-    height: 100dvh;
-    width: 100dvw;
-    background-size: cover;
+    background-color: #332f43;
+    height: 1200px;
+    max-width: 1200px;
+    max-height: 900px;
+    font-family: garamond, serif;
+    margin: 10px auto;
     color: white;
+    border: 3px solid #003c7e;
+    border-radius: 15px;
+    box-shadow: 3px 3px 4px 3px #2c2f35, -3px 3px 4px 3px #2c2f35;
+    background-clip: padding-box;
+}
 
+.test{
+    background-color: #3E3A55;
+    border-radius: 15px;
 }
 
 header {
-    
     background-color: #005bb7;
     padding: 20px;
     text-align: left;
     font-size: 35px;
     color: white;
-    width: 100dvw;
+    width: 1195px;
+
+}
+
+.itswebsite{
+    margin: 0 0 0 20px;
 }
 
 .square {
-    height: 100dvh;
-    width: 20dvw;
+    height: 748px;
+    width: 275px;
     padding: 0;
+    border-radius: 0 0 0 15px;
     background-color: #005bb7;
     box-sizing: border-box;
 

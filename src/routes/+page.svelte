@@ -39,12 +39,13 @@
 
 <title>Scott's Site</title>
 
-<div> <br> </div>
+<div class="test"> <br> </div>
+<div class="test">
 <Tabs/>
 <header class="flex"> <h2>Scott's Website</h2> </header>
 <div class = "flex flex-row ">
     <div class = "square">
-        <p>It's a website. </p>
+        <p class="itswebsite">It's a website. </p>
 
 
 
@@ -68,6 +69,7 @@
         </div>
     </div>
     </div>
+</div>
 </div>
 
 
