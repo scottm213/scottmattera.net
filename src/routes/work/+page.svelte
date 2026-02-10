@@ -107,8 +107,8 @@
                         - Made in collaboration</p>
                     <p class = "font-bold">POV-Ray Projects </p>
                     <ul class="list-disc pl-6">
-                        <li>More of a passion project, I learned the old 3D rendering software </li>
-                        <li>POV-Ray to make old 90s styled 3D renders</li>
+                        <li>More of a passion project, I learned the old 3D rendering software
+                        POV-Ray to make old 90s styled 3D renders</li>
                         <li>Uses POV-Ray's scene description language.</li>
                         <li>Worked with some simple graphics components, like SORs, splines, and a bit of working with textures, lighting,
                         and camera placement</li>
@@ -120,7 +120,7 @@
                        shooting incoming asteroids and dealing with problems on the ship.</li>
                    <li> I worked on most of the building/design/many ideas, as well as making some
                     3D models, 2D sprites, and programming for some of the events that can happen.</li>
-                        <li>Made for the Yeggs 2023 Fall MapJam</li>
+                        <li>Made for the Yeggs 2023 Fall MapJam, where we had only 3 days to complete it!</li>
                         <li>Won 3rd place prize! <a class = "tweet" href="https://x.com/YeggsStudios/status/1707034081102266798?s=20">[Place Announcement Tweet]</a></li>
                         <li> Made in collaboration</li>
                    </ul>
