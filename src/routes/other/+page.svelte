@@ -4,7 +4,7 @@
 
 <title>Scott's Site - Links</title>
 
-<div> <br> </div>
+<div class="test">
 <Tabs />
 <header> <h2>My Links</h2> </header>
 <div class = "flex flex-row">
@@ -21,4 +21,5 @@
                 <img src="/image/LinkedIn_icon.svg" class = "h-10 w-10" alt="github logo">LinkedIn</a>
         </div>
     </div>
+</div>
 </div>

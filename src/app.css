@@ -30,19 +30,20 @@ header {
 
 }
 .slideshow{
-    padding: 20px;
+    padding: 80px;
 }
+
 
 .itswebsite{
     margin: 0 0 0 20px;
 }
 
 .tabe{
-    margin: 20px 0 0 0;
+    margin: 40px 0 0 0;
 }
 
 .square {
-    height: 748px;
+    height: 733px;
     width: 275px;
     padding: 0;
     border-radius: 0 0 0 15px;
@@ -52,16 +53,17 @@ header {
 }
 
 .workSquare {
-    height: 60vh;
-    width: 75vw;
+    height: 600px;
+    width: 100%;
+    max-width: 700px;
     border-radius: 0 25px 25px 0;
     background-color: #005bb7;
-
 }
 
 .otherSquare {
-    height: 100dvh;
-    width: 80dvw;
+    height: 733px;
+    width: 997px;
+    border-radius: 0 0 15px 0;
 
 
 }
@@ -77,6 +79,15 @@ header {
 
 
 }
+.tweet{
+    color: navajowhite;
+    text-decoration: underline;
+}
+.tweet:hover, .tweet:focus{
+    color: white;
+}
+
+
 .button1 {
     background-color: #005bb7;
     color: white;
