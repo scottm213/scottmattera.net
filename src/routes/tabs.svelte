@@ -8,7 +8,8 @@
 
     }
 </script>
-<nav class="tabs flex">
+
+<nav class="tabs flex tabe">
     <a href = "/">
         <button class = {getCurrentPage("/")} type="button">Home</button> </a>
     <a href = "/work">

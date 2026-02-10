@@ -39,7 +39,7 @@
 
 <title>Scott's Site</title>
 
-<div class="test"> <br> </div>
+
 <div class="test">
 <Tabs/>
 <header class="flex"> <h2>Scott's Website</h2> </header>
@@ -57,7 +57,7 @@
         <br>
         <p>Here's some renders by me </p>
         <br>
-    <div class = "relative h-96 w-[512px]">
+    <div class = "slideshow relative h-96 w-[512px]">
             {#key picChange}
             <img class="absolute" transition:fade src={images[picChange]} height=384 width=512 alt="Reflective Orbs">
             {/key}

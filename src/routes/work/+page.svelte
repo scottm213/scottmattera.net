@@ -41,7 +41,7 @@
 
 <title>Scott's Site - My Work</title>
 
-<div> <br> </div>
+<br>
 <Tabs />
 <header> <h2>My Work</h2> </header>
 <div class = "flex flex-row">

@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 body{
-    background-color: #332f43;
+    background-color: #3E3A55;
     height: 1200px;
     max-width: 1200px;
     max-height: 900px;
@@ -29,9 +29,16 @@ header {
     width: 1195px;
 
 }
+.slideshow{
+    padding: 20px;
+}
 
 .itswebsite{
     margin: 0 0 0 20px;
+}
+
+.tabe{
+    margin: 20px 0 0 0;
 }
 
 .square {
