@@ -14,9 +14,10 @@
         <p>Hello! I am Scott Mattera, a student at UNCW majoring in Computer Science <br> with a
             concentration in cybersecurity.</p> <br> <br> <br>
         <p>I will be graduating in May, 2026. <br>
-        I have programmed with Java, Python, Typescript, Ionic, Tailwind, HTML/CSS, Swift, MySQL, and Verse. <br>
+        I have programmed with Java, Python, Typescript, Ionic React, Tailwind, HTML/CSS, Swift, MySQL, C++, and Verse. <br>
         I have used programs including Webstorm, IntelliJay, VSCode, Github/Git, XCode, Ghidra, <br>
-        POV-Ray, UEFN, Microsoft 365</p>
+        POV-Ray, UEFN, Microsoft 365.
+        I use both MacOS and Windows, with some light experience using server based linux.</p>
 
     </div>
 </div>

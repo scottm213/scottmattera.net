@@ -78,7 +78,7 @@
                         <li>Also set up a request with the Yelp API to get restaurant info near a user (location is just hardcoded, selected by user)</li>
                         <li>Passwords are hashed before being saved to database</li>
                         <li>Lots of time spent figuring out how to host the database on my Oracle Cloud server (using docker compose)</li>
-                        <li>The backend itself is also hosted on my VPS, using a dockerfile.</li>
+                        <li>The backend itself is also hosted on my Ubuntu VPS, using a dockerfile.</li>
                     </ul>
                     <p class = "font-bold">Computer Store Site </p>
                     <ul class="list-disc pl-6">
@@ -140,12 +140,14 @@
                         <li>Guessing games based on Wordle that get random characters from the Fortnite shop or Brainrot wiki. Users can get hints,
                         make a guess (which shows any letters that were in the correct position) and get points based on how many guesses they used</li>
                         <li>Has a points system that gives players points from activities, and stores them so anyone can see their total. </li>
+                        <li>Has some ways to spend points, including a gacha game implemented with rarities and pity, with a feature that levels up every duplicate pulled</li>
+                        <li>Uses SQlite to store information about user's points and their collected gachas</li>
                         <li>Uses the last.fm API to implement a command that searches for a last.fm user's listening history, with parameters allowing to sort by
                         all time, month, year, week, and choose between songs and albums</li>
                         <li>Uses Jsoup, Gson and other Java libraries to implement webscraping commands (searching Brainrot wiki)</li>
                         <li>Uses the Fortnite API to get shop data</li>
                         <li>Uses the AmiAmi API in a python script to search AmiAmi website</li>
-                        <li>Uses gradle to build, hosted on my Oracle Cloud server</li>
+                        <li>Uses gradle to build, hosted on my Ubuntu Oracle Cloud server</li>
                         <li>Made SOLO</li>
                     </ul>
                 </div>
