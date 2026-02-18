@@ -15,10 +15,32 @@
             concentration in cybersecurity.</p> <br> <br> <br>
         <p>I will be graduating in May, 2026. <br>
         I have programmed with Java, Python, Typescript, Ionic React, Tailwind, HTML/CSS, Swift, MySQL, C++, and Verse. <br>
-        I have used programs including Webstorm, IntelliJay, VSCode, Github/Git, XCode, Ghidra, <br>
-        POV-Ray, UEFN, Microsoft 365.
+        I have used programs including Webstorm, IntelliJay, VSCode, Github/Git, XCode, <br>
+        POV-Ray, UEFN, and Microsoft 365
         I use both MacOS and Windows, with some light experience using server based linux.</p>
+        <h3>My Relevant Classwork</h3>
+        <ul>
+            <li>Introduction To Computer Science</li>
+            <li>Design & Analysis Of Algorithms</li>
+            <li>Introduction to Data Structures</li>
+            <li>Discrete Math Principles</li>
+            <li>Object Oriented Programming & Design</li>
+            <li>Professional & Ethical Issues in Computing</li>
+            <li>Computer Networks</li>
+            <li>Software Engineering</li>
+            <li>Computer Graphics</li>
+            <li>Database Design & Implementation</li>
+            <li>Computer Organization</li>
+            <li>Formal Languages & Computability</li>
+            <li>Programming Languages</li>
+            <li>Fundamentals of Cybersecurity</li>
+            <li>Systems Security</li>
+            <li>Cyber Operations</li>
+            <li>Malware Analysis</li>
+            <li>Applied Software Security</li>
+            <li>Security Tools Engineering</li>
 
+        </ul>
     </div>
 </div>
 </div>
