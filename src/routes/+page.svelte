@@ -44,13 +44,9 @@
 <Tabs/>
 <header class="flex"> <h2>Scott's Website</h2> </header>
 <div class = "flex flex-row ">
-    <div class = "square">
-        <p class="itswebsite">It's a website. </p>
-
-
-
-
-
+    <div class = "square flex flex-col items-center">
+        <p>It's a website. </p>
+        <img src="/image/tuxPC.gif" alt="welcome to internet" class="h-13 w-20">
 
     </div>
     <div class = "flex flex-col flex-1 min-w-0">

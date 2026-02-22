@@ -131,7 +131,9 @@
                         <li>Hosted with GitHub sites</li>
                         <li>Made SOLO</li>
                     </ul>
-                    <p class ="font-bold">FumoBot (WIP)</p>
+                    <div class="flex items-center gap-2">
+                        <a href="/fumo" ><img src="/image/reimu.PNG" class="w-10 h-10 border-2 border-transparent hover:border-white transition" alt="fumo"></a> <p class ="font-bold">FumoBot (WIP)</p>
+                    </div>
                     <ul class="list-disc pl-6">
                         <li>Discord bot made with Java, using Discord4J </li>
                         <li>The bot has many functions, which include:</li>
