@@ -4,8 +4,9 @@
 
 <title>Scott's Site - Museum</title>
 
-<br>
-<button class="button button1 w-20"> <a href="/demos">Go Back </a></button>
+<nav class="tabs flex tabe">
+    <a href="/demos"><button class="button button2" type="button"> Go Back </button></a>
+</nav>
 <header> <h2> UNDER CONSTRUCTION</h2></header>
 <div>
 

@@ -105,7 +105,9 @@
                         - Simple iOS app for tracking and recording the amount of hours you sleep <br>
                         - Uses SwiftData for persistent data tracking <br>
                         - Made in collaboration</p>
-                    <p class = "font-bold">POV-Ray Projects </p>
+                    <div class="flex items-center gap-2">
+                        <a href="/museum" ><img src="/image/povray.png" class="fumo w-10 h-10 " alt="povray"></a><p class = "font-bold">POV-Ray Projects </p>
+                    </div>
                     <ul class="list-disc pl-6">
                         <li>More of a passion project, I learned the old 3D rendering software
                         POV-Ray to make old 90s styled 3D renders</li>
@@ -132,7 +134,7 @@
                         <li>Made SOLO</li>
                     </ul>
                     <div class="flex items-center gap-2">
-                        <a href="/fumo" ><img src="/image/reimu.PNG" class="w-10 h-10 border-2 border-transparent hover:border-white transition" alt="fumo"></a> <p class ="font-bold">FumoBot (WIP)</p>
+                        <a href="/fumo" ><img src="/image/reimu.PNG" class="fumo w-10 h-10 " alt="fumo"></a> <p class ="font-bold">FumoBot (WIP)</p>
                     </div>
                     <ul class="list-disc pl-6">
                         <li>Discord bot made with Java, using Discord4J </li>
