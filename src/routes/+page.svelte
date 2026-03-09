@@ -47,7 +47,7 @@
     <div class = "square flex flex-col items-center">
         <p>It's a website. </p>
         <img src="/image/tuxPC.gif" alt="welcome to internet" class="h-13 w-20">
-        <a href="/bbhood" class="underline">Download BB Hood PSP Theme</a>
+        <p>Pardon our appearances! Site is still under construction!</p>
 
     </div>
     <div class = "flex flex-col flex-1 min-w-0">
