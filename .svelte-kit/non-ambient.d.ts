@@ -43,6 +43,6 @@ declare module "$app/types" {
 		};
 		Pathname(): "/" | "/about" | "/about/" | "/demos" | "/demos/" | "/fumo" | "/fumo/" | "/museum" | "/museum/" | "/other" | "/other/" | "/payload" | "/payload/" | "/work" | "/work/";
 		ResolvedPathname(): `${"" | `/${string}`}${ReturnType<AppTypes['Pathname']>}`;
-		Asset(): "/.nojekyll" | "/image/bgcand1.jpg" | "/image/bishop.png" | "/image/fortnite_command_gif.gif" | "/image/fumoHi.png" | "/image/LinkedIn_icon.svg" | "/image/mark-github.svg" | "/image/povray.png" | "/image/reflectiveOrbs.png" | "/image/reimu.PNG" | "/image/saturn.png" | "/image/tuxPC.gif" | "/image/webBG.png" | "/image/websitebackground.png" | "/robots.txt" | string & {};
+		Asset(): "/.nojekyll" | "/file/bbhoodtheme.ptf" | "/image/bgcand1.jpg" | "/image/bishop.png" | "/image/fortnite_command_gif.gif" | "/image/fumoHi.png" | "/image/LinkedIn_icon.svg" | "/image/mark-github.svg" | "/image/povray.png" | "/image/reflectiveOrbs.png" | "/image/reimu.PNG" | "/image/saturn.png" | "/image/tuxPC.gif" | "/image/webBG.png" | "/image/websitebackground.png" | "/robots.txt" | string & {};
 	}
 }
