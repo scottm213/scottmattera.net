@@ -27,13 +27,14 @@ export {};
 
 declare module "$app/types" {
 	export interface AppTypes {
-		RouteId(): "/" | "/about" | "/demos" | "/fumo" | "/museum" | "/other" | "/payload" | "/work";
+		RouteId(): "/" | "/about" | "/bbhood" | "/demos" | "/fumo" | "/museum" | "/other" | "/payload" | "/work";
 		RouteParams(): {
 			
 		};
 		LayoutParams(): {
 			"/": Record<string, never>;
 			"/about": Record<string, never>;
+			"/bbhood": Record<string, never>;
 			"/demos": Record<string, never>;
 			"/fumo": Record<string, never>;
 			"/museum": Record<string, never>;
@@ -41,7 +42,7 @@ declare module "$app/types" {
 			"/payload": Record<string, never>;
 			"/work": Record<string, never>
 		};
-		Pathname(): "/" | "/about" | "/about/" | "/demos" | "/demos/" | "/fumo" | "/fumo/" | "/museum" | "/museum/" | "/other" | "/other/" | "/payload" | "/payload/" | "/work" | "/work/";
+		Pathname(): "/" | "/about" | "/about/" | "/bbhood" | "/bbhood/" | "/demos" | "/demos/" | "/fumo" | "/fumo/" | "/museum" | "/museum/" | "/other" | "/other/" | "/payload" | "/payload/" | "/work" | "/work/";
 		ResolvedPathname(): `${"" | `/${string}`}${ReturnType<AppTypes['Pathname']>}`;
 		Asset(): "/.nojekyll" | "/file/bbhoodtheme.ptf" | "/image/bgcand1.jpg" | "/image/bishop.png" | "/image/fortnite_command_gif.gif" | "/image/fumoHi.png" | "/image/LinkedIn_icon.svg" | "/image/mark-github.svg" | "/image/povray.png" | "/image/reflectiveOrbs.png" | "/image/reimu.PNG" | "/image/saturn.png" | "/image/tuxPC.gif" | "/image/webBG.png" | "/image/websitebackground.png" | "/robots.txt" | string & {};
 	}
