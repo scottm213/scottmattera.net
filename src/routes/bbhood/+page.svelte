@@ -3,6 +3,7 @@
 
     onMount(() => {
         window.location.href = "/file/bbhoodtheme.ptf";
+
     });
 </script>
 
