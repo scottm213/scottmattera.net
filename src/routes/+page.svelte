@@ -1,6 +1,7 @@
 <script lang="ts">
     import "../app.css";
     import Tabs from "./tabs.svelte";
+    import MobileTabs from "./mobileTabs.svelte";
     import {fade} from "svelte/transition"
     import MediaQuery from "./MediaQuery.svelte";
 
@@ -74,10 +75,13 @@
 </MediaQuery>
 <!--For this page, do media queries like this because whatever. but for the other pages, make two files, one for mobile and one for regular build
  and then have them imported, and call them in the media query (like tabs)-->
-<MediaQuery query="(max-width: 789px)" let:matches>
+<MediaQuery query="(max-width: 758px)" let:matches>
     {#if matches}
-        <header class="flex  rounded-t-[15px]"> <h2>Scott's Website</h2> </header>
-
+        <header class="flex rounded-t-[15px]"> <h2>Scott's Website</h2> </header>
+        <MobileTabs></MobileTabs>
+        <div class="bg-[#004281] flex items-center justify-center">
+            <p>It's a website.</p>
+        </div>
         <p>WARNING: AS LONG AS THIS P EXISTS THE MOBILE BUILD IS <em> NOT </em> FINISHED </p>
 
     {/if}

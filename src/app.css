@@ -82,8 +82,6 @@ header {
     height: 30px;
     border: none;
     cursor: pointer;
-
-
 }
 .tweet{
     color: navajowhite;
@@ -114,6 +112,33 @@ header {
     background-color: #00509f;
     color: whitesmoke;
 }
+
+.button1mobile {
+    max-height: 30px;
+    border-radius: 0;
+    background-color: #005bb7;
+    color: white;
+}
+
+.button1mobile:hover {
+    background-color: #035cb6;
+    color: #dddddd;
+}
+
+.button2mobile {
+
+    max-height: 30px;
+    border-radius: 0;
+
+    background-color: #003468;
+    color: grey;
+}
+
+.button2mobile:hover {
+    background-color: #00509f;
+    color: whitesmoke;
+}
+
 
 .button3 {
     float: right;
