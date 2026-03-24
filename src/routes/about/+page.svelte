@@ -53,7 +53,7 @@
 
 <MediaQuery query="(max-width: 758px)" let:matches>
     {#if matches}
-        <header class="flex rounded-t-[15px]"> <h2>Scott's Website</h2> </header>
+        <header class="flex rounded-t-[15px]"> <h2>About Me</h2> </header>
         <MobileTabs></MobileTabs>
         <div class="bg-[#004281] flex flex-col items-center justify-center">
             <p>Hello! I am Scott Mattera, a student at UNCW majoring in Computer Science <br> with a

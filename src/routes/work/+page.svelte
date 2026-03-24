@@ -169,7 +169,7 @@
 
 <MediaQuery query="(max-width: 758px)" let:matches>
     {#if matches}
-        <header class="flex rounded-t-[15px]"> <h2>Scott's Website</h2> </header>
+        <header class="flex rounded-t-[15px]"> <h2>My Work</h2> </header>
         <MobileTabs></MobileTabs>
         <div class="bg-[#004281] flex flex-col items-center justify-center">
             <h1 class ="font-bold">---School Projects---</h1>
