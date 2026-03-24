@@ -67,9 +67,11 @@
                     <div class = "workSquare overflow-y-scroll flex flex-col">
                         <h1 class ="font-bold">School Projects</h1>
                         <p class = "font-bold">Galaga Clone</p>
-                        <p>- Made using Java, Java FX <br>
-                        - Plays similar to Space Invaders <br>
-                        - Made with a team</p>
+                        <ul class="list-disc pl-6">
+                            <li>Made using Java, Java FX </li>
+                            <li>Plays similar to Space Invaders</li>
+                            <li>Made with a team</li>
+                        </ul>
                         <p class = "font-bold">Munch Match </p>
                         <ul class="list-disc pl-6">
                             <li>Made using Ionic, React, Typescript,Express, MySQL </li>
@@ -94,9 +96,11 @@
                             <li>Made with a group</li>
                         </ul>
                         <p class = "font-bold">Ghidra & IDA Pro Plugins Research</p>
-                        <p>- A research paper describing different plugins to assist with <br>
-                        reverse engineering and static malware analysis. <br>
-                        - Made with a team</p>
+                        <ul class="list-disc pl-6">
+                            <li>A research paper describing different plugins to assist with <br>
+                            reverse engineering and static malware analysis.</li>
+                            <li>Made with a team </li>
+                        </ul>
 
                     </div>
                 {/if}
@@ -105,10 +109,12 @@
                     <div class = "workSquare overflow-y-scroll flex flex-col">
                         <h1 class = "font-bold">Personal Projects</h1>
                         <p class = "font-bold">SleepZone (in progress)</p>
-                        <p>- Made using Swift, SwiftUI<br>
-                            - Simple iOS app for tracking and recording the amount of hours you sleep <br>
-                            - Uses SwiftData for persistent data tracking <br>
-                            - Made in collaboration</p>
+                        <ul class="list-disc pl-6">
+                        <li>Made using Swift, SwiftUI</li>
+                            <li>Simple iOS app for tracking and recording the amount of hours you sleep</li>
+                            <li>Uses SwiftData for persistent data tracking </li>
+                            <li>Made in collaboration</li>
+                        </ul>
                         <div class="flex items-center gap-2">
                             <a href="/museum" ><img src="/image/povray.png" class="fumo w-10 h-10 " alt="povray"></a><p class = "font-bold">POV-Ray Projects </p>
                         </div>
@@ -173,45 +179,52 @@
         <MobileTabs></MobileTabs>
         <div class="bg-[#004281] flex flex-col items-center justify-center">
             <h1 class ="font-bold">---School Projects---</h1>
-            <p class = "font-bold">Galaga Clone</p>
-            <p>- Made using Java, Java FX <br>
-                - Plays similar to Space Invaders <br>
-                - Made with a team</p>
-            <p class = "font-bold">Munch Match </p>
-            <ul class="list-disc pl-6">
-                <li>Made using Ionic, React, Typescript,Express, MySQL </li>
-                <li>App similar to tinder, but for finding restaurants</li>
-                <li>Project had us take the position of a development team, where we had scrum meetings and
-                    used GitHub to to merge changes.</li>
-                <li>My focus was on the backend, made using Express (javascript)</li>
-                <li>Created a MySQL database to host all of our user data</li>
-                <li>Created ionic pages for logging in, creating accounts, making reviews, and setting preferences</li>
-                <li>Also set up a request with the Yelp API to get restaurant info near a user (location is just hardcoded, selected by user)</li>
-                <li>Passwords are hashed before being saved to database</li>
-                <li>Lots of time spent figuring out how to host the database on my Oracle Cloud server (using docker compose)</li>
-                <li>The backend itself is also hosted on my Ubuntu VPS, using a dockerfile.</li>
-            </ul>
-            <p class = "font-bold">Computer Store Site </p>
-            <ul class="list-disc pl-6">
-                <li>Simple website frontend made with HTML and PHP with a MySQL backend</li>
-                <li>Determined the requirements of a database for a Computer Parts Store</li>
-                <li>Created a MySQL database with appropriate tables for the store</li>
-                <li>Added a website that makes queries to get certain data</li>
-                <li>Uses a trigger, and function</li>
-                <li>Made with a group</li>
-            </ul>
-            <p class = "font-bold">Ghidra & IDA Pro Plugins Research</p>
-            <p>- A research paper describing different plugins to assist with <br>
-                reverse engineering and static malware analysis. <br>
-                - Made with a team</p>
+                <p class = "font-bold">Galaga Clone</p>
+                <ul class="list-disc pl-6">
+                    <li>Made using Java, Java FX </li>
+                    <li> Plays similar to Space Invaders</li>
+                    <li> Made with a team</li>
+                </ul>
+                <p class = "font-bold">Munch Match </p>
+                <ul class="list-disc pl-6">
+                    <li>Made using Ionic, React, Typescript,Express, MySQL </li>
+                    <li>App similar to tinder, but for finding restaurants</li>
+                    <li>Project had us take the position of a development team, where we had scrum meetings and
+                        used GitHub to to merge changes.</li>
+                    <li>My focus was on the backend, made using Express (javascript)</li>
+                    <li>Created a MySQL database to host all of our user data</li>
+                    <li>Created ionic pages for logging in, creating accounts, making reviews, and setting preferences</li>
+                    <li>Also set up a request with the Yelp API to get restaurant info near a user (location is just hardcoded, selected by user)</li>
+                    <li>Passwords are hashed before being saved to database</li>
+                    <li>Lots of time spent figuring out how to host the database on my Oracle Cloud server (using docker compose)</li>
+                    <li>The backend itself is also hosted on my Ubuntu VPS, using a dockerfile.</li>
+                </ul>
+                <p class = "font-bold">Computer Store Site </p>
+                <ul class="list-disc pl-6">
+                    <li>Simple website frontend made with HTML and PHP with a MySQL backend</li>
+                    <li>Determined the requirements of a database for a Computer Parts Store</li>
+                    <li>Created a MySQL database with appropriate tables for the store</li>
+                    <li>Added a website that makes queries to get certain data</li>
+                    <li>Uses a trigger, and function</li>
+                    <li>Made with a group</li>
+                </ul>
+                <p class = "font-bold">Ghidra & IDA Pro Plugins Research</p>
+                <ul class="list-disc pl-6">
+                    <li> A research paper describing different plugins to assist with <br>
+                        reverse engineering and static malware analysis.</li>
+                    <li> Made with a team </li>
+                </ul>
+
 
 
                 <h1 class = "font-bold">---Personal Projects---</h1>
                 <p class = "font-bold">SleepZone (in progress)</p>
-                <p>- Made using Swift, SwiftUI<br>
-                    - Simple iOS app for tracking and recording the amount of hours you sleep <br>
-                    - Uses SwiftData for persistent data tracking <br>
-                    - Made in collaboration</p>
+                <ul class="list-disc pl-6">
+                    <li>Made using Swift, SwiftUI</li>
+                    <li>Simple iOS app for tracking and recording the amount of hours you sleep</li>
+                    <li>Uses SwiftData for persistent data tracking </li>
+                    <li>Made in collaboration</li>
+                </ul>
                 <div class="flex items-center gap-2">
                     <a href="/museum" ><img src="/image/povray.png" class="fumo w-10 h-10 " alt="povray"></a><p class = "font-bold">POV-Ray Projects </p>
                 </div>
