@@ -63,7 +63,7 @@ header {
 }
 
 .otherSquare {
-    height: 733px;
+    /**height: 733px; **/
     width: 997px;
     border-radius: 0 0 15px 0;
 
