@@ -97,6 +97,9 @@
                         <button class = "{setButtonStyle(2)} col-start-7 " type="button" onclick={() => buttonClicked(2)} >.</button>
                     </div>
                 </div>
+            <div class="h-[10dvh]">
+
+            </div>
             <br>
             <div class="flex-row">
                 <a href = "https://github.com/scottm213" target="_blank" class = "mr-[1em] hover:bg-gray-200 text-3xl bg-gray-100 border-2 border-gray-200 text-gray-700 rounded h-15 w-35 inline-flex items-center">
@@ -105,10 +108,15 @@
                 <a href = "https://www.linkedin.com/in/scott-mattera/" target="_blank" class = "ml-[1em]hover:bg-gray-200 text-2xl bg-gray-100 border-2 border-gray-200 text-gray-700 rounded h-15 w-35 inline-flex items-center">
                     <img src="/image/LinkedIn_icon.svg" class = "h-10 w-10" alt="github logo">LinkedIn</a>
             </div>
+
+            <footer>
+                <p>Thanks for visiting!</p>
+            </footer>
+
+
             </div>
 
 
-        <p>WARNING: AS LONG AS THIS P EXISTS THE MOBILE BUILD IS <em> NOT </em> FINISHED </p>
 
     {/if}
 </MediaQuery>
