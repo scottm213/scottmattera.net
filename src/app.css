@@ -170,3 +170,10 @@ nav ul li:hover ul,nav ul li:focus-within ul{
     color: white;
 }
 
+.workLink{
+    text-decoration: underline;
+}
+
+.workLink:hover{
+    color: teal;
+}

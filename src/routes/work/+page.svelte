@@ -101,6 +101,11 @@
                             reverse engineering and static malware analysis.</li>
                             <li>Made with a team </li>
                         </ul>
+                        <p class = "font-bold">HTML Site</p>
+                        <ul class="list-disc pl-6">
+                            <li>HTML Website with CSS styling</li>
+                            <li>Check it out <a class="workLink" href="/classSite/index.html" target="_blank">here!</a></li>
+                        </ul>
 
                     </div>
                 {/if}
@@ -214,6 +219,12 @@
                         reverse engineering and static malware analysis.</li>
                     <li> Made with a team </li>
                 </ul>
+                <p class = "font-bold">HTML Site</p>
+                <ul class="list-disc pl-6">
+                    <li>HTML Website with CSS styling</li>
+                    <li>Check it out <a class="workLink" href="/classSite/index.html" target="_blank">here!</a></li>
+                </ul>
+
 
 
 
