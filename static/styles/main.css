@@ -1,0 +1,111 @@
+/**SCOTT MATTERA **/
+html{
+    background: lightgrey;
+}
+
+header{
+    background-color: darkslateblue;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: left;
+    border-bottom: 5px solid black;
+
+    img{
+        float: left;
+        margin: 0 5px;
+    }
+}
+
+body{
+    font-family: Arial, Helvetica,sans-serif;
+    margin: 5px auto;
+    max-width: 1300px;
+    width: 100%;
+    background-color: whitesmoke;
+    border: black 2px solid;
+}
+
+nav{
+    float: left;
+
+    background-color: lightgrey;
+    border: darkslateblue 3px solid;
+    border-radius: 10px;
+    padding: 0 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    height: auto;
+    max-width: 150px;
+    width: 100%;
+    h2{
+        font-style: italic;
+    }
+
+    ul{
+        list-style: none;
+        padding-left: 0;
+    }
+    li{
+        padding-bottom: 10px;
+
+
+        a:hover, a:focus{
+            font-weight: bold;
+        }
+
+    }
+
+
+    li.here{
+        color: red;
+        padding: 0;
+
+        display: block;
+
+    }
+
+    li.nothere{
+        display: none;
+    }
+}
+
+main{
+    display: flex;
+    padding: 5px;
+    height: auto;
+
+
+
+
+}
+
+section{
+    flex-basis: 75%;
+
+}
+
+aside{
+    flex-basis: 25%;
+
+    figure{
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+
+        figcaption{
+
+            font-style: italic;
+        }
+    }
+}
+
+
+footer{
+    text-align: center;
+    background-color: lightgrey;
+}
