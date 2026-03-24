@@ -80,11 +80,12 @@
         <header class="flex rounded-t-[15px]"> <h2>Scott's Website</h2> </header>
         <MobileTabs></MobileTabs>
         <div class="bg-[#004281] flex flex-col items-center justify-center">
+            <br>
             <p>It's a website.</p>
 
                 <br>
                 <p>Here's some renders by me </p>
-                <br>
+
                 <div class = "relative w-full max-w-[600px] aspect-[4/3]">
                     {#key picChange}
                         <img class="absolute inset-0 w-full h-full object-cover" transition:fade src={images[picChange]} alt="Reflective Orbs">
@@ -96,6 +97,14 @@
                         <button class = "{setButtonStyle(2)} col-start-7 " type="button" onclick={() => buttonClicked(2)} >.</button>
                     </div>
                 </div>
+            <br>
+            <div class="flex-row">
+                <a href = "https://github.com/scottm213" target="_blank" class = "mr-[1em] hover:bg-gray-200 text-3xl bg-gray-100 border-2 border-gray-200 text-gray-700 rounded h-15 w-35 inline-flex items-center">
+                    <img src="/image/mark-github.svg" class = "h-10 w-10" alt="github logo">Github</a>
+
+                <a href = "https://www.linkedin.com/in/scott-mattera/" target="_blank" class = "ml-[1em]hover:bg-gray-200 text-2xl bg-gray-100 border-2 border-gray-200 text-gray-700 rounded h-15 w-35 inline-flex items-center">
+                    <img src="/image/LinkedIn_icon.svg" class = "h-10 w-10" alt="github logo">LinkedIn</a>
+            </div>
             </div>
 
 

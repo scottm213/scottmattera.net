@@ -29,9 +29,7 @@
                 <li>
                     <a href="/demos"><button class="disappear button2mobile button1mobile w-[100%] border border-solid border-black">Demos</button></a>
                 </li>
-                <li>
-                    <a href="/other"><button class="disappear button2mobile button1mobile w-[100%] border border-solid border-black">My Links</button></a>
-                </li>
+
             </ul>
         </li>
 
