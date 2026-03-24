@@ -79,9 +79,26 @@
     {#if matches}
         <header class="flex rounded-t-[15px]"> <h2>Scott's Website</h2> </header>
         <MobileTabs></MobileTabs>
-        <div class="bg-[#004281] flex items-center justify-center">
+        <div class="bg-[#004281] flex flex-col items-center justify-center">
             <p>It's a website.</p>
-        </div>
+
+                <br>
+                <p>Here's some renders by me </p>
+                <br>
+                <div class = "relative w-full max-w-[600px] aspect-[4/3]">
+                    {#key picChange}
+                        <img class="absolute inset-0 w-full h-full object-cover" transition:fade src={images[picChange]} alt="Reflective Orbs">
+                    {/key}
+
+                    <div class = "absolute bottom-2 left-1/2 -translate-x-1/2  grid grid-cols-9 gap-1">
+                        <button class = "{setButtonStyle(0)} col-start-3 " type="button" onclick={() => buttonClicked(0)} >.</button>
+                        <button class = "{setButtonStyle(1)} col-start-5" type="button" onclick={() => buttonClicked(1)} >.</button>
+                        <button class = "{setButtonStyle(2)} col-start-7 " type="button" onclick={() => buttonClicked(2)} >.</button>
+                    </div>
+                </div>
+            </div>
+
+
         <p>WARNING: AS LONG AS THIS P EXISTS THE MOBILE BUILD IS <em> NOT </em> FINISHED </p>
 
     {/if}

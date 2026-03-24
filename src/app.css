@@ -91,6 +91,24 @@ header {
     color: white;
 }
 
+ul ul{
+    display: none;
+    position: absolute;
+
+
+
+}
+
+nav ul li:hover ul,nav ul li:focus-within ul{
+    display: block;
+
+
+
+}
+
+
+
+
 
 .button1 {
     background-color: #005bb7;
