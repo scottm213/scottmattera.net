@@ -109,6 +109,27 @@ nav ul li:hover ul,nav ul li:focus-within ul{
 
 
 
+.hoverImg{
+    height: 50%;
+    width: 50%;
+}
+.museumUL ul{
+    display: none;
+    position: absolute;
+    background: #062f53;
+    width: 15%;
+
+}
+ul ul ul ul ul {
+    background: #012c5c;
+}
+
+.museumUL li:hover > ul, .museumUL li:focus-within ul {
+    display: block;
+}
+
+
+
 
 
 .button1 {
@@ -177,3 +198,5 @@ nav ul li:hover ul,nav ul li:focus-within ul{
 .workLink:hover{
     color: teal;
 }
+
+
