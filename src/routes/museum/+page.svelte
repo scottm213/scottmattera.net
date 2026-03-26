@@ -21,7 +21,7 @@
         position: fixed; /* Position relative to the viewport */
         width: 100vw;
         height: 100vh;
-        background-color: rgba(1, 44, 92, 0.6);
+        background-color: rgba(1, 44, 92, 0.0);
 
         z-index: 999;
 
@@ -45,6 +45,10 @@
         max-width: 60%;
         height: auto;
     }
+    dialog::backdrop {
+        background-color: rgba(1, 44, 92, 0.6);
+
+    }
 </style>
 
 <title>Scott's Site - Museum</title>
@@ -59,7 +63,7 @@
 <div class="flex  w-[1195px] h-[733px] rounded-b-[15px] border-solid border-[#005bb7] border-8 ">
     <div class = "flex bg-[#004281] flex-col flex-grow items-center ">
 
-            <dialog bind:this={dialog} class="modal">
+            <dialog bind:this={dialog} class="modal dialog-overlay">
                 <div class="dialog-content flex flex-col justify-center items-center ">
                     <div class="flex w-[100%] justify-center">
                         <img src="image/bgcand1.jpg"  alt="hi" class=" dialogImg">
