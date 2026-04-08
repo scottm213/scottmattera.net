@@ -45,7 +45,7 @@
     {#if matches}
     <div class="test">
     <Tabs/>
-    <header class="flex"> <h2>Scott's Website</h2> </header>
+    <header class="flex"> <a href="/"><img src="image/logo.png" alt="my logo" class="h-16 w-16 mr-2 border-3 border-transparent hover:border-transparent transition"></a> <h2 class="p-1">Scott's Website</h2> </header>
     <div class = "flex flex-row ">
         <div class = "square flex flex-col items-center">
             <p>It's a website. </p>
@@ -53,7 +53,7 @@
             <p>Pardon our appearances! Site is still under construction!</p>
 
         </div>
-        <div class = "flex flex-col flex-1 min-w-0">
+        <div class = "flex flex-col flex-1 min-w-0 bg-[#004281]">
             <br>
             <p>Here's some renders by me </p>
             <br>

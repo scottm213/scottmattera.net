@@ -47,7 +47,7 @@
     {#if matches}
     <div class ="test"> </div>
     <Tabs />
-    <header> <h2>My Work</h2> </header>
+    <header class="flex"> <a href="/"><img src="image/logo.png" alt="my logo" class="h-16 w-16 mr-2 border-3 border-transparent hover:border-black transition"></a> <h2 class="p-1">My Work</h2> </header>
     <div class = "flex flex-row">
         <div class = "square flex flex-col items-start justify-start">
             <div class="grid grid-cols-4 gap-1 ">

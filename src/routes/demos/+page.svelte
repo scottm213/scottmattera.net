@@ -12,7 +12,8 @@
     {#if matches}
     <div class="test">
     <Tabs/>
-    <header> <h2>Demos</h2> </header>
+        <header class="flex"> <a href="/"><img src="image/logo.png" alt="my logo" class="h-16 w-16 mr-2 border-3 border-transparent hover:border-black transition"></a>
+            <h2 class="p-1">Demos</h2> </header>
     <div class="flex  w-[1195px] h-[733px] rounded-b-[15px] border-solid border-[#005bb7] border-8 ">
         <div class = "flex bg-[#004281] flex-col flex-grow items-center ">
             <div class="flex justify-around w-full">
