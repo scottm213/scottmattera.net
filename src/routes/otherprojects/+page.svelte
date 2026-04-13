@@ -16,15 +16,14 @@
 
             <div class="flex flex-col items-center">
                 <p>Here are some miscellaneous small projects.</p>
-                <p class="font-bold">B.B. Hood PSP Theme</p>
-                <img src="/image/bbtheme.jpeg" class="w-[350px] h-[200px]" alt="bb hood psp theme">
+                <p class="font-bold">KoF Shermie PSP Theme</p>
+                <img src="/image/shermie.jpg" class="w-[350px] h-[200px]" alt="shermie psp theme">
 
                 <ul>
-                    <li>- A simple psp theme for the Darkstalkers character B.B. Hood</li>
-                    <li>- Icons made with paint.NET</li>
+                    <li>- A simple psp theme for the King of Fighters character Shermie</li>
+                    <li>- Icons and background made with paint.NET</li>
                     <li>- PSP Theme Toolbox used to put it together</li>
-                    <li>- Credit to Grim for ripping NeoGeo Pocket Sprites</li>
-                    <li>- You can download it <a class="underline hover:text-teal-600" href="/file/bbhoodtheme.ptf" download>here.</a></li>
+                    <li>- <a class="underline hover:text-teal-600" href="otherprojects/psp/">Click here to see all PSP themes I made, and downloads for them!</a></li>
                 </ul>
             </div>
 
