@@ -27,6 +27,8 @@
                     <p class="font-bold">Under Construction</p>
                 </div>
             </div>
+            <a href="/demos/invaders"><img src="/image/galagaicon.png" alt="Galaga Clone" class="border-2 border-transparent hover:border-white transition"> </a>
+            <p class="font-bold">Galaga Clone</p>
             <a href="/otherprojects"><img src="/image/otherprojects.png" alt="Other Projects" class="border-2 border-transparent hover:border-white transition"> </a>
             <a href="/otherprojects" class="hover:underline">Other Projects</a>
         </div>

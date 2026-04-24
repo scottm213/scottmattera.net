@@ -55,7 +55,7 @@
                 <button  class = "flex shrink-1 flex-col w-33.5 h-10 {buttonStyle1} rounded-tl-lg rounded-br-lg mt-20 col-start-3 col-end-4" type="button" value="school" onclick={schoolButtonClicked}>School Projects</button>
 
 
-                <button class = "flex shrink-1 flex-col w-33.5 h-10 {buttonStyle2} rounded-tl-lg rounded-br-lg hover:bg-[#004381] mt-50 col-start-3 col-end-4" type="button" value="personal "onclick={personalButtonClicked}>Personal Projects</button>
+                <button class = "flex shrink-1 flex-col w-33.5 h-10 {buttonStyle2} rounded-tl-lg rounded-br-lg hover:bg-[#004381] mt-50 col-start-3 col-end-4" type="button" value="personal" onclick={personalButtonClicked}>Personal Projects</button>
             </div>
         </div>
             <div>
@@ -66,7 +66,9 @@
 
                     <div class = "workSquare overflow-y-scroll flex flex-col">
                         <h1 class ="font-bold">School Projects</h1>
-                        <p class = "font-bold">Galaga Clone</p>
+                        <div class="flex items-center gap-2">
+                            <a href="/demos/invaders" ><img src="/image/galaga.png" class="fumo w-10 h-10 " alt="fumo"></a> <p class = "font-bold">Galaga Clone</p>
+                        </div>
                         <ul class="list-disc pl-6">
                             <li>Made using Java, Java FX </li>
                             <li>Plays similar to Space Invaders</li>
