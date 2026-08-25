@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="styles/main.css">
   <meta charset="UTF-8">
 
   <title>POV-Ray Compendium | Tips and Tricks</title>
@@ -16,13 +16,13 @@
   <h2>Directory</h2>
   <ul>
     <li class="nothere">&#8595;You are here!</li>
-    <li><a href="index.html" id="current">Home</a></li>
+    <li><a href="index.html" >Home</a></li>
     <li class="nothere">&#8595;You are here!</li>
     <li><a href="renders.html">Cool Renders</a></li>
     <li class="nothere">&#8595;You are here!</li>
     <li><a href="tips.html">Tips and Tricks</a></li>
     <li class="here">&#8595;You are here!</li>
-    <li><a href="#">Test Your Knowledge</a></li>
+    <li><a href="#"  id="current">Test Your Knowledge</a></li>
     <li>- - - - - - - - - - - - - - </li>
     <li>Want more detailed information about POV-Ray?</li>
     <li>Check out the official website <a href="https://www.povray.org/"> here! </a> </li>
@@ -34,11 +34,63 @@
 <main>
   <section>
     <h2> Quiz</h2>
-    <p>Form will go here</p>
+    <p>How much do you really know about POV-Ray?</p>
+    <form name="input" action="quiz_result.html" method="get">
+      <fieldset>
+        <legend>Test your knowledge!</legend>
+        <p>1) When writing coordinates, what should surround them?</p>
+        <input type="radio" name="q1" id="nothing" value="nothing">
+        <label for="nothing">Nothing</label><br>
+        <input type="radio" name="q1" id="gesurround" value="gesurround">
+        <label for="gesurround">&lt; and &gt;</label><br>
+        <input type="radio" name="q1" id="pasurround" value="pasurround">
+        <label for="pasurround">( and )</label><br>
+        <input type="radio" name="q1" id="brasurround" value="brasurround">
+        <label for="brasurround">{ and }</label><br>
+        <p>2) What file format is used for include files?</p>
+        <input type="radio" name="q2" id="inc" value="inc">
+        <label for="inc">.inc</label><br>
+        <input type="radio" name="q2" id="txt" value="txt">
+        <label for="txt">.txt</label><br>
+        <input type="radio" name="q2" id="include" value="include">
+        <label for="include">.include</label><br>
+        <input type="radio" name="q2" id="yml" value="yml">
+        <label for="yml">.yml</label><br>
+
+        <p>3) Which shape is best suited for making interesting curves?</p>
+        <label for="shape"></label><select name="q3" id="shape">
+          <option>Select an option</option>
+          <option value="circle">Circle</option>
+          <option value="sphere">Sphere</option>
+          <option value="sor">Sor</option>
+          <option value="sweep">Sphere Sweep</option>
+        </select>
+
+        <p>4) Write the SDL for a red sphere centered at 0,0,0 with a phong finish and a radius of 1.</p>
+        <label for="q4"></label><textarea name="sdl" id="q4"></textarea> <br><br>
+
+        <fieldset>
+          <legend>All done?</legend>
+          <input type="submit" id="finish" value="Submit answers">
+          <input type="reset" value="Reset answers">
+        </fieldset>
+
+
+
+
+
+      </fieldset>
+    </form>
+
   </section>
 
 
 </main>
+
+<footer>
+  Scott Web Design 2026
+</footer>
+<script src="javascript/form.js"></script>
 
 
 

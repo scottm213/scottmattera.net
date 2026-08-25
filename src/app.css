@@ -197,10 +197,11 @@ ul ul ul ul ul {
 
 .workLink{
     text-decoration: underline;
+    color: red;
 }
 
 .workLink:hover{
-    color: teal;
+    color: turquoise;
 }
 
 

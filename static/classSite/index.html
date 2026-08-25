@@ -2,8 +2,14 @@
 <html lang="en">
 <head>
     <!--SCOTT MATTERA -->
-    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet"
+          href="styles/print.css" media="print">
     <meta charset="UTF-8">
+    <meta name="description" content="Learn more about POV-Ray here!">
+    <meta name="keywords" content="pov-ray, raytracing, rendering, 3d, computer science, computer graphics">
+    <meta name="viewport"
+        content="width=device-width, initialscale=1">
 
     <title>Scott's POV-Ray Compendium</title>
 </head>
@@ -24,9 +30,9 @@
       <li><a href="tips.html">Tips and Tricks</a></li>
       <li class="nothere"> &#8595;You are here!</li>
       <li><a href="quiz.html">Test Your Knowledge</a></li>
-      <li>- - - - - - - - - - - - - - </li>
-      <li>Want more detailed information about POV-Ray?</li>
-      <li>Check out the official website <a href="https://www.povray.org/"> here! </a> </li>
+      <li><p>- - - - - - - - - - - - - -</p> </li>
+      <li><p>Want more detailed information about POV-Ray?</p></li>
+      <li><p>Check out the official website <a href="https://www.povray.org/"> here! </a></p> </li>
 
     </ul>
 
@@ -49,13 +55,16 @@
       POV-Ray allows you to use SDL (Scene Description Language) to create renders. Some SDL is shown below:</p>
       <img src="images/sdl.png" alt="example of sdl code">
       <p>More to come later!</p>
+      <br>
     </section>
 
     <aside>
       <figure>
         <img src="images/reflectiveOrbs.png" height="384" width=512 alt="Reflective Orbs Render by me">
         <figcaption>Reflective Orbs Render - by me!</figcaption>
+
       </figure>
+      <button id="print">Print this page!</button>
 
     </aside>
 
@@ -64,9 +73,11 @@
 
 
 
+
 <footer>
   Scott Web Design 2026
 </footer>
+<script src="javascript/print.js"></script>
 
 
 

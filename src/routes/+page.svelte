@@ -47,10 +47,13 @@
     <Tabs/>
     <header class="flex"> <a href="/"><img src="image/logo.png" alt="my logo" class="h-16 w-16 mr-2 border-3 border-transparent hover:border-transparent transition"></a> <h2 class="p-1">Scott's Website</h2> </header>
     <div class = "flex flex-row ">
-        <div class = "square flex flex-col items-center">
+        <div class = "square flex flex-col items-center !p-2">
             <p>It's a website. </p>
             <img src="/image/tuxPC.gif" alt="welcome to internet" class="h-13 w-20">
-            <p>Pardon our appearances! Site is still under construction!</p>
+
+            <p class="">Pardon our appearances! Site is still under construction!</p>
+            <p class="p-8 font-bold">If you want to check out my projects, look <a class="underline text-red-400 hover:text-emerald-400" href="/work"> here! </a> </p>
+            <p>Sorry, but the website font STAYS serif.</p>
 
         </div>
         <div class = "flex flex-col flex-1 min-w-0 bg-[#004281]">

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="styles/main.css">
   <meta charset="UTF-8">
 
   <title>POV-Ray Compendium | Tips and Tricks</title>
@@ -16,11 +16,11 @@
   <h2>Directory</h2>
   <ul>
     <li class="nothere">&#8595;You are here!</li>
-    <li><a href="index.html" id="current">Home</a></li>
+    <li><a href="index.html">Home</a></li>
     <li class="nothere">&#8595;You are here!</li>
     <li><a href="renders.html">Cool Renders</a></li>
     <li class="here">&#8595;You are here!</li>
-    <li><a href="#">Tips and Tricks</a></li>
+    <li><a href="#"  id="current">Tips and Tricks</a></li>
     <li class="nothere">&#8595;You are here!</li>
     <li><a href="quiz.html">Test Your Knowledge</a></li>
     <li>- - - - - - - - - - - - - - </li>
@@ -34,12 +34,91 @@
 <main>
   <section>
     <h2>Tips and Tricks</h2>
-    <p>Text will go here</p>
+    <p>Here are some common functions within POV-Ray to know about! Functions are defined with sample values.</p>
+    <table>
+      <caption>Functions</caption>
+      <thead>
+      <tr>
+
+        <th>Function Type</th>	<th>Syntax</th>	<th>Uses</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <th rowspan="3" >Shapes</th>
+        <td>box{ &lt;0,0,0&gt;, &lt;1,1,1&gt; }</td>
+        <td>Makes a cube with coords representing bottom left point and top right point.</td>
+
+      </tr>
+      <tr>
+        <td>sphere{ &lt;0,0,0&gt;, 1 }</td>
+        <td>Makes a cube with coords representing origin, with a value for the radius.</td>
+
+      </tr>
+      <tr>
+        <td>cylinder{ &lt;0,0,0&gt;, &lt;0,1,0&gt;, 1 }</td>
+        <td>Makes a cylinder with coords representing top and bottom center points, and a value for the radius.</td>
+      </tr>
+
+
+      <tr>
+        <th rowspan="4" >Texturing</th>
+        <td>texture{ }</td>
+        <td>Use this (defined after the coordinates of your object) to hold all of your texture functions.</td>
+      </tr>
+
+      <tr>
+        <td>pigment { color Red }</td>
+        <td>Change the color of an object. Colors can be RGB, defined as variables, or from include files (like colors.inc)</td>
+      </tr>
+
+      <tr>
+        <td>normal { turbulence 1.0 }</td>
+        <td>Define the normals of your object, allowing for texturing details like bumpiness or turbulence.</td>
+      </tr>
+
+      <tr>
+        <td>finish { phong 1.0 }</td>
+        <td>Define finish properties of your object, allowing for reflectivity.</td>
+      </tr>
+
+
+      <tr>
+        <th rowspan="2" >Scene Setup</th>
+        <td>camera { location &lt;0,0,0> look_at &lt;1,1,1&gt; }</td>
+        <td>Places a camera on defined location, looking at defined look_at vector. You need one to see your render!</td>
+      </tr>
+
+      <tr>
+        <td>light_source { 100,100,100 color White } </td>
+        <td>The lighting for your scene. You can make different types of lights, like spotlights and can even modify things like
+        the light drop off.</td>
+      </tr>
+      <tr>
+        <th rowspan="2" >Other Useful Stuff</th>
+        <td>#declare variableName = red 0.1 blue 1.0 green 0.5;</td>
+        <td>You can declare variables with this. It's not just limited to colors, you can store things like normal functions
+        and more.</td>
+      </tr>
+
+      <tr>
+        <td>#include "something.inc"</td>
+        <td>POV-Ray comes with lots of include files, all with unique shapes, colors and textures already made and ready to be used.</td>
+      </tr>
+
+
+      </tbody>
+
+
+    </table>
   </section>
 
 
 </main>
 
+<footer>
+  Scott Web Design 2026
+</footer>
 
 
 </body>

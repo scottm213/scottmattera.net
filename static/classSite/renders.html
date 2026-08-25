@@ -1,10 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="styles/main.css">
     <meta charset="UTF-8">
 
     <title>POV-Ray Compendium | Cool Renders</title>
+
+    <style>
+        body{
+
+            display: grid;
+
+            grid-template-columns: 230px 1fr;
+            grid-template-rows: auto 1fr;
+
+            grid-template-areas:
+                "header header"
+                "nav   main";
+
+        }
+        header{
+            grid-area: header;
+        }
+        nav {
+            grid-area: nav;
+            align-self: start;
+
+        }
+        main {
+            grid-area: main;
+        }
+
+        video {
+            float: right;
+        }
+        img{
+            float: left;
+        }
+
+        li{
+            padding: 8px;
+
+        }
+
+        #rightSide {
+            overflow: hidden;
+        }
+
+
+    </style>
+
 </head>
 <body>
 
@@ -16,9 +61,9 @@
     <h2>Directory</h2>
     <ul>
         <li class="nothere">&#8595;You are here!</li>
-        <li><a href="index.html" id="current">Home</a></li>
+        <li><a href="index.html" >Home</a></li>
         <li class="here">&#8595;You are here!</li>
-        <li><a href="#">Cool Renders</a></li>
+        <li><a href="#"  id="current">Cool Renders</a></li>
         <li class="nothere">&#8595;You are here!</li>
         <li><a href="tips.html">Tips and Tricks</a></li>
         <li class="nothere">&#8595;You are here!</li>
@@ -26,19 +71,40 @@
         <li>- - - - - - - - - - - - - - </li>
         <li>Want more detailed information about POV-Ray?</li>
         <li>Check out the official website <a href="https://www.povray.org/"> here! </a> </li>
-
-
     </ul>
-
 </nav>
 <main>
     <section>
         <h2> Some Cool Renders</h2>
-        <p>Text will go here, with images</p>
+        <p><strong>Projection of a Hypercube - Animation Showing a Rotation</strong></p>
+        <video src="media/fourcube6.mp4" width="240" height="240" preload controls loop></video>
+        <p><i>From the University of Kentucky Department of Mathematics</i> <a href="https://www.ms.uky.edu/~lee/visual05/povray/povray.html">[link]</a></p>
+        <ul>
+            <li>Here is a cool animation made by the University of Kentucky of a rotating hypercube. I don't quite know
+            what a hypercube is, but it looks cool.</li>
+            <li>It is obvious some very advanced modeling techniques went into this animation. We also get to see
+            the basic animation abilities of POV-Ray.</li>
+            <li>To make the hypercube, the creator made a set of vertexes, and then made polygons between them
+            creating the final shape.</li>
+        </ul>
+        <br>
+        <p><strong>Scherk-Collins Sculpture</strong></p>
+        <p><i>By Trevor G. Quayle</i> <a href="https://hof.povray.org/sherk-collins.html">[Link]</a></p>
+        <img src="images/sherk-collins.jpg" height="200" width="320" alt="scherk-collins sculpture">
+        <ul id="rightSide">
+            <li>This is a particularly interesting looking shape made by Trevor G. Quayle. I personally really enjoy
+            the texturing done, the wood grain texture looks very smooth for such a complex shape.</li>
+            <li>The sculpture mesh itself was not made in POV-Ray, but it looks great under POV-Ray's ray tracing.</li>
+        </ul>
+
+
+
+
     </section>
 
 
 </main>
+
 
 
 
