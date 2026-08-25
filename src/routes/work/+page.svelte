@@ -104,7 +104,17 @@
                         <p class = "font-bold">HTML Site</p>
                         <ul class="list-disc pl-6">
                             <li>HTML Website with CSS styling</li>
+                            <li>Has JavaScript functionality</li>
+                            <li>Made Solo</li>
                             <li>Check it out <a class="workLink" href="/classSite/index.html" target="_blank">here!</a></li>
+                        </ul>
+                        <p class = "font-bold">Spam Email Detector</p>
+                        <ul class="list-disc pl-6">
+                            <li>Spam Email Detection program made using Java</li>
+                            <li>Takes an inputted email file and checks for links with invalid certificates, links that still use HTTP, and emails that have been detected as spam and hashed.  </li>
+                            <li>Also uses OpenAI integration and sends the file to a LLM which decides whether or not it believes it is spam.</li>
+                            <li>There is a spam likeliness score which increases/decreases based on certain conditions, in an attempt to reduce false flags.</li>
+                            <li>Made with one teammate.</li>
                         </ul>
 
                     </div>
