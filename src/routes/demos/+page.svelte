@@ -27,8 +27,28 @@
                     <p class="font-bold">Under Construction</p>
                 </div>
             </div>
-            <a href="/demos/invaders"><img src="/image/galagaicon.png" alt="Galaga Clone" class="border-2 border-transparent hover:border-white transition"> </a>
-            <p class="font-bold">Galaga Clone</p>
+            <div class="flex justify-around w-full">
+                <div class="flex flex-col items-center">
+                    <a href="/demos/invaders"><img src="/image/galagaicon.png" alt="Galaga Clone" class="border-2 border-transparent hover:border-white transition"> </a>
+                    <p class="font-bold">Galaga Clone</p>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <a href="/classSite/index.html"><img src="/image/povWebsiteIcon.png" alt="POV-Ray Website" class="border-2 border-transparent hover:border-white transition"> </a>
+                    <p class="font-bold">POV-Ray HTML Website</p>
+                </div>
+            </div>
+            <div class="flex justify-around w-full">
+                <div class="flex flex-col items-center">
+                    <a href="/demos/spam"><img src="/image/spamIcon.png" alt="Spam Email Detector" class="border-2 border-transparent hover:border-white transition"> </a>
+                    <p class="font-bold">Spam Email Detector</p>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <a href="/demos/mapjams"><img src="/image/mineIcon.png" alt="Map Jams" class="border-2 border-transparent hover:border-white transition"> </a>
+                    <p class="font-bold">Minecraft Map Jams</p>
+                </div>
+            </div>
             <a href="/otherprojects"><img src="/image/otherprojects.png" alt="Other Projects" class="border-2 border-transparent hover:border-white transition"> </a>
             <a href="/otherprojects" class="hover:underline">Other Projects</a>
         </div>

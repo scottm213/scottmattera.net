@@ -16,8 +16,8 @@
             <p>FumoBot is a Discord bot with tons of funny features.</p>
 
             <p class="max-w-[800px]">Initially, it was designed with the purpose of tracking the AmiAmi website to see when Touhou Fumo plushes, which are extremely
-            sought after, were restocked. However, ever since the API that got search results from AmiAmi stopped working, it has found new life with all sorts
-            of activities and features. <br>
+            sought after, were restocked. However it has all sorts
+            of extra activities and features now. <br>
             Since this bot will never be public, here I will demonstrate many of the features I have implemented!</p>
             <h2  class="text-2xl font-bold mb-2 text-center" >Features</h2>
             <h2  class="font-bold text-[1.25rem] bg-[#003870] mb-[0]">FumoPoints</h2>

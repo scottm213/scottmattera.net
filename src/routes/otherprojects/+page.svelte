@@ -16,15 +16,13 @@
 
             <div class="flex flex-col items-center">
                 <p>Here are some miscellaneous small projects.</p>
-                <p class="font-bold">KoF Shermie PSP Theme</p>
-                <img src="/image/shermie.jpg" class="w-[350px] h-[200px]" alt="shermie psp theme">
+                <a href="/otherprojects/othercraft"><img src="/image/mineMoreIcon.png" alt="Other Minecraft Projects" class="border-2 border-transparent hover:border-white transition"> </a>
+                <p class="font-bold">Other Minecraft Projects</p>
+                <a href="/otherprojects/psp"><img src="/image/pspIcon.png" alt="PSP Themes" class="border-2 border-transparent hover:border-white transition"> </a>
+                <p class="font-bold">Custom PSP Themes</p>
+                <a href="/otherprojects/archive"><img src="/image/archiveIcon.png" alt="Website Archive" class="border-2 border-transparent hover:border-white transition"> </a>
+                <p class="font-bold">scottmattera.net Archive</p>
 
-                <ul>
-                    <li>- A simple psp theme for the King of Fighters character Shermie</li>
-                    <li>- Icons and background made with paint.NET</li>
-                    <li>- PSP Theme Toolbox used to put it together</li>
-                    <li>- <a class="underline hover:text-teal-600" href="otherprojects/psp/">Click here to see all PSP themes I made, and downloads for them!</a></li>
-                </ul>
             </div>
 
         </div>
