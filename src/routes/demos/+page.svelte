@@ -49,6 +49,12 @@
                     <p class="font-bold">Minecraft Map Jams</p>
                 </div>
             </div>
+            <div class="flex justify-around w-full">
+                <div class="flex flex-col items-center">
+                    <a href="/demos/tsukihime"><img src="/image/tsukihimeLogo.png" alt="Tsukihime Mod" class="border-2 border-transparent hover:border-white transition"> </a>
+                    <p class="font-bold">Tsukihime Minecraft Mod</p>
+                </div>
+            </div>
             <a href="/otherprojects"><img src="/image/otherprojects.png" alt="Other Projects" class="border-2 border-transparent hover:border-white transition"> </a>
             <a href="/otherprojects" class="hover:underline">Other Projects</a>
         </div>

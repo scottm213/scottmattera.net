@@ -11,8 +11,10 @@
 <div class="test">
 
     <header> <h2>Map Jams</h2> </header>
-    <div class = "flex bg-[#004281] flex-grow flex-col overflow-y-scroll max-h-[733px] h-[733px] rounded-b-[13px] rounded-bl-[13px] pl-2">
-      <p>coming soon</p>
+    <div class = "bg-[#004281] overflow-y-scroll max-h-[733px] h-[733px] rounded-b-[13px] rounded-bl-[13px] pl-2">
+        <p class = "indent-8 pl-6 pr-6 text-lg">Every year, Yeggs hosts a Minecraft Map Jam competition, where teams of up to 3 creators make a
+        Minecraft Map based on 3 themes. For the past few years, me and 2 friends have worked together to compete in these Map Jams, even placing 3rd one year!
+        More info to come</p>
 
     </div>
 
